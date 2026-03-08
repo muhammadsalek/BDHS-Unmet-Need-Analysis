@@ -1,178 +1,129 @@
+# Unmet Need for Family Planning — Bangladesh
+
+## Association Between Internet Use and Unmet Need for Family Planning among Ever-Married Women in Bangladesh: Evidence from BDHS 2022
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:020409,30:001a2e,60:00d4ff,100:7c3aed&height=280&section=header&text=UNMET%20NEED%20ANALYSIS&fontSize=40&fontColor=ffffff&fontAlignY=40&desc=SPATIAL%20%26%20STATISTICAL%20ANALYSIS%20%E2%80%94%20BANGLADESH&descSize=18&descAlignY=60&descColor=00d4ff&animation=twinkling&stroke=00d4ff&strokeWidth=2" width="100%"/>
+[![License](https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge&labelColor=0d1117&logo=opensourceinitiative&logoColor=10b981)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active%20Research-7c3aed?style=for-the-badge&labelColor=0d1117)](https://github.com)
+[![Journal](https://img.shields.io/badge/Output-Q1%20Journal%20Ready-00d4ff?style=for-the-badge&labelColor=0d1117)](https://github.com)
 
 </div>
 
 <div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=📍+Spatial+Analysis+%7C+Unmet+Need;🗺️+Division-Level+Mapping+%7C+Bangladesh;📊+BDHS+Data+%7C+Stata+%7C+R;🔬+Reproductive+Health+%7C+Family+Planning;🎯+Q1+Journal+Submission+Ready)](https://git.io/typing-svg)
-
-</div>
-
----
-
-<div align="center">
-
-[![Champion](https://img.shields.io/badge/-%F0%9F%8F%86%20Q1%20JOURNAL%20READY-f59e0b?style=for-the-badge&labelColor=0d1117&color=f59e0b)](https://github.com)
-[![License](https://img.shields.io/badge/-MIT%20LICENSE-10b981?style=for-the-badge&labelColor=0d1117&logo=opensourceinitiative&logoColor=10b981)](LICENSE)
-[![Status](https://img.shields.io/badge/-ACTIVE%20RESEARCH-7c3aed?style=for-the-badge&labelColor=0d1117)](https://github.com)
-
-<br/>
 
 ![Stata](https://img.shields.io/badge/Stata-1A5276?style=flat-square&logoColor=white)
 ![R](https://img.shields.io/badge/R_4.2+-276DC3?style=flat-square&logo=r&logoColor=white)
-![BDHS](https://img.shields.io/badge/BDHS-Data-00d4ff?style=flat-square&logoColor=white)
+![BDHS](https://img.shields.io/badge/BDHS_2022-Data-00d4ff?style=flat-square&logoColor=white)
 ![Spatial](https://img.shields.io/badge/Spatial_Analysis-228B22?style=flat-square&logoColor=white)
-![tidyverse](https://img.shields.io/badge/tidyverse-1a73e8?style=flat-square&logo=r&logoColor=white)
 ![ggplot2](https://img.shields.io/badge/ggplot2-ef4444?style=flat-square&logoColor=white)
+![tidyverse](https://img.shields.io/badge/tidyverse-1a73e8?style=flat-square&logo=r&logoColor=white)
 
 </div>
 
 ---
 
-## ◈ SCOREBOARD
+## Overview
 
-<div align="center">
+This study examines the association between internet use and unmet need for family planning among ever-married women in Bangladesh, using data from the **Bangladesh Demographic and Health Survey (BDHS) 2022**. The analysis integrates spatial mapping at the division level with statistical modeling to identify regional disparities and the role of digital access in reproductive health outcomes.
 
-| 🏅 STAT | 📊 VALUE | 🏅 STAT | 📊 VALUE |
-|:---:|:---:|:---:|:---:|
-| ![](https://img.shields.io/badge/DATA%20SOURCE-BDHS-00d4ff?style=for-the-badge&labelColor=0d1117) | Bangladesh DHS | ![](https://img.shields.io/badge/COUNTRY-Bangladesh-7c3aed?style=for-the-badge&labelColor=0d1117) | 🇧🇩 8 Divisions |
-| ![](https://img.shields.io/badge/METHODS-Spatial%20%2B%20Stats-10b981?style=for-the-badge&labelColor=0d1117) | Stata · R | ![](https://img.shields.io/badge/OUTPUT-Q1%20READY-f59e0b?style=for-the-badge&labelColor=0d1117) | Figures · Maps · CSV |
-
-</div>
-
----
-
-## ◈ AUTHORS
-
-<div align="center">
+**Pipeline:**
 
 ```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                                                                         │
-│   👨‍💻  Mohammad Ohid Ullah          👨‍💻  Md Salek Miah                   │
-│   ─────────────────────────        ──────────────────────────────       │
-│   📧 ohid-sta@sust.edu             📧 saleksta@gmail.com                │
-│   🏛️  SUST · Statistics Dept.      🏛️  SUST · Statistics Dept.          │
-│                                    🔗 LinkedIn ↗                        │
-│   🆔 ORCID: 0000-0003-2336-3018    🆔 ORCID: 0009-0005-5973-461X        │
-│                                                                         │
-│          Shahjalal University of Science and Technology                 │
-│                      Bangladesh 🇧🇩                                     │
-└─────────────────────────────────────────────────────────────────────────┘
-```
-
-[![LinkedIn](https://img.shields.io/badge/Md_Salek_Miah-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-salek-miah-b34309329/)
-[![Email Ohid](https://img.shields.io/badge/ohid--sta%40sust.edu-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ohid-sta@sust.edu)
-[![Email Salek](https://img.shields.io/badge/saleksta%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:saleksta@gmail.com)
-[![ORCID Ohid](https://img.shields.io/badge/ORCID-0000--0003--2336--3018-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0000-0003-2336-3018)
-[![ORCID Salek](https://img.shields.io/badge/ORCID-0009--0005--5973--461X-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0005-5973-461X)
-
-</div>
-
----
-
-## ◈ OVERVIEW
-
-> **Mission:** A comprehensive spatial and statistical analysis of unmet need for family planning across Bangladesh, using Bangladesh Demographic and Health Survey (BDHS) data. The study examines division-level prevalence patterns, identifies regional disparities, and provides actionable evidence for reproductive health policy in Bangladesh.
-
-<div align="center">
-
-```
-╭──────────────────────────────────────────────────────────────────────╮
-│  PIPELINE                                                            │
-│  ┌─────────────────────┐                                             │
-│  │     BDHS Survey     │                                             │
-│  │       Data          │                                             │
-│  └──────────┬──────────┘                                             │
-│             ▼                                                        │
-│  ┌─────────────────────┐                                             │
-│  │   PREPROCESSING     │  cleaning · recoding · weighting            │
-│  └──────────┬──────────┘                                             │
-│             ▼                                                        │
-│  ┌─────────────────────┐                                             │
-│  │  STATISTICAL        │  prevalence · logistic regression           │
-│  │  ANALYSIS (Stata)   │  survey-weighted estimates                  │
-│  └──────────┬──────────┘                                             │
-│             ▼                                                        │
-│  ┌─────────────────────┐                                             │
-│  │  SPATIAL ANALYSIS   │  division-level mapping · choropleth        │
-│  │       (R)           │  spatial prevalence · figures               │
-│  └──────────┬──────────┘                                             │
-│             ▼                                                        │
-│  ┌─────────────────────┐                                             │
-│  │  OUTPUTS            │  Q1 figures · CSV tables · maps             │
-│  └─────────────────────┘                                             │
-╰──────────────────────────────────────────────────────────────────────╯
-```
-
-</div>
-
----
-
-## ◈ REPOSITORY STRUCTURE
-
-```
-📦 BDHS-Unmet-Need-Analysis/
-│
-├── 📄 README.md
-│
-├── 📜 Analysis.do                         ◄── Main Stata analysis script
-│                                               (descriptive + regression)
-├── 📜 Spatials.do                         ◄── Stata spatial data preparation
-│
-├── 📜 Spatial_Figures.R                   ◄── R script for spatial maps
-│                                               & choropleth figures
-│
-├── 📊 division_unmet_need_share.csv       ◄── Division-level unmet need
-│                                               prevalence estimates
-│
-└── 📋 LICENSE                             ◄── MIT Open Source
+BDHS 2022 Survey Data
+        │
+        ▼
+  Preprocessing          cleaning · recoding · survey weighting
+        │
+        ▼
+  Statistical Analysis   logistic regression · odds ratios
+    (Stata)              survey-weighted estimates
+        │
+        ▼
+  Spatial Analysis       division-level choropleth maps
+      (R)                prevalence mapping
+        │
+        ▼
+  Outputs                Q1 figures · CSV tables · maps
 ```
 
 ---
 
-## ◈ DATA SOURCE
+## Authors
 
-<div align="center">
+**Corresponding Author**
 
-| 📁 Dataset | 🌐 Source | 📋 Description |
-|:---|:---|:---|
-| **BDHS** | [DHS Program](https://dhsprogram.com) | Bangladesh Demographic & Health Survey |
+**Md Jamal Uddin, Ph.D.**
+Professor, Department of Statistics
+Shahjalal University of Science and Technology (SUST), Sylhet-3114, Bangladesh
+Faculty of Graduate Education, Daffodil International University, Dhaka, Bangladesh
+📞 +8801716972846
+📧 [jamal-sta@sust.edu](mailto:jamal-sta@sust.edu)
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--8360--3274-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0000-0002-8360-3274)
+
+---
+
+**Co-Author**
+
+**Md Salek Miah**
+Research Assistant, Department of Statistics
+Shahjalal University of Science and Technology (SUST), Sylhet-3114, Bangladesh
+📧 [saleksta@gmail.com](mailto:saleksta@gmail.com)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0005--5973--461X-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0005-5973-461X)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Md_Salek_Miah-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-salek-miah-b34309329/)
+
+---
+
+**Affiliation**
+
+Biostatistics, Epidemiology, and Public Health Research Team
+Department of Statistics, Shahjalal University of Science & Technology (SUST), Sylhet-3114, Bangladesh
+
+---
+
+## Repository Structure
+
+```
+BDHS-Unmet-Need-Analysis/
+│
+├── README.md
+├── Analysis.do                        ← Main Stata analysis script
+│                                        (descriptive + logistic regression)
+├── Spatials.do                        ← Stata spatial data preparation
+├── Spatial_Figures.R                  ← R script for choropleth maps
+├── division_unmet_need_share.csv      ← Division-level prevalence estimates
+└── LICENSE                            ← MIT License
+```
+
+---
+
+## Data Source
+
+| Dataset | Source | Description |
+|:--------|:-------|:------------|
+| **BDHS 2022** | [DHS Program](https://dhsprogram.com) | Bangladesh Demographic & Health Survey 2022 |
 | **Division Shapefile** | Bangladesh Admin Boundaries | 8 Divisions — spatial polygons |
 | `division_unmet_need_share.csv` | Derived from BDHS | Division-level prevalence of unmet need |
 
-</div>
-
-> ⚠️ **Note:** Raw DHS survey microdata requires registration at [dhsprogram.com](https://dhsprogram.com). The derived/aggregated CSV outputs in this repository are freely available.
+> **Note:** Raw DHS microdata requires registration at [dhsprogram.com](https://dhsprogram.com). Derived/aggregated CSV outputs in this repository are freely available.
 
 ---
 
-## ◈ QUICK START
+## Quick Start
 
-### Requirements
+**Requirements:** Stata `>= 15` · R `>= 4.2`
 
-- **Stata** `>= 15` (for `Analysis.do` and `Spatials.do`)
-- **R** `>= 4.2` (for `Spatial_Figures.R`)
-
-### Step 1 — Run Statistical Analysis (Stata)
+**Step 1 — Statistical Analysis (Stata)**
 
 ```stata
-* Set working directory
 cd "/path/to/BDHS-Unmet-Need-Analysis"
-
-* Main analysis: descriptive stats + regression
 do Analysis.do
-
-* Spatial data preparation
 do Spatials.do
 ```
 
-### Step 2 — Generate Spatial Figures (R)
+**Step 2 — Spatial Figures (R)**
 
 ```r
-# Install required R packages
 install.packages(c(
   "tidyverse",   # data wrangling
   "sf",          # spatial data handling
@@ -182,53 +133,44 @@ install.packages(c(
   "readr"        # CSV reading
 ))
 
-# Run spatial figures script
 source("Spatial_Figures.R")
 ```
 
 ---
 
-## ◈ KEY HIGHLIGHTS
+## Key Highlights
 
-<div align="center">
-
-```
-  ✦ SPATIAL MAPPING ───── Division-level choropleth maps of unmet need
-  ✦ SURVEY WEIGHTS ─────── Proper BDHS complex survey design accounting
-  ✦ REPRODUCIBILITY ────── Fully scripted Stata + R workflow
-  ✦ OPEN DATA OUTPUT ───── Aggregated CSV for downstream use
-  ✦ JOURNAL OUTPUT ─────── Publication-ready figures (300 DPI)
-  ✦ POLICY RELEVANCE ───── Division-level insights for targeted action
-```
-
-</div>
+| Feature | Details |
+|:--------|:--------|
+| **Exposure Variable** | Internet use (frequency and access) |
+| **Outcome Variable** | Unmet need for family planning |
+| **Population** | Ever-married women of reproductive age |
+| **Survey Design** | BDHS 2022 complex survey with proper weighting |
+| **Spatial Scope** | 8 divisions of Bangladesh |
+| **Statistical Method** | Weighted logistic regression · odds ratios · 95% CI |
+| **Spatial Method** | Division-level choropleth mapping |
+| **Output Format** | 300 DPI publication-ready figures |
 
 ---
 
-## ◈ RESEARCH IMPACT
+## Research Impact
 
-<div align="center">
-
-| 🎯 Domain | 💡 Contribution |
-|:---|:---|
-| 🏥 **Reproductive Health** | Estimates unmet need for family planning across Bangladesh |
-| 🗺️ **Spatial Epidemiology** | Identifies geographic disparities at division level |
-| 📢 **Health Policy** | Evidence base for targeted family planning interventions |
-| 🔬 **Public Health** | Contributes to SDG 3 monitoring — universal health coverage |
-
-</div>
+| Domain | Contribution |
+|:-------|:-------------|
+| **Reproductive Health** | Examines digital determinants of family planning uptake |
+| **Spatial Epidemiology** | Maps geographic disparities in unmet need across divisions |
+| **Public Health** | Evidence for SDG 3 — Universal Health Coverage monitoring |
+| **Health Policy** | Actionable insights for targeted interventions in Bangladesh |
 
 ---
 
-## ◈ CITATION
-
-If you use this work, please cite:
+## Citation
 
 ```bibtex
-@article{ullah_miah_unmet_need_2025,
-  title   = {Spatial Analysis of Unmet Need for Family Planning in Bangladesh:
-             Evidence from the Bangladesh Demographic and Health Survey},
-  author  = {Ullah, Mohammad Ohid and Miah, Md Salek},
+@article{miah_uddin_unmet_need_2025,
+  title   = {Association Between Internet Use and Unmet Need for Family Planning
+             among Ever-Married Women in Bangladesh: Evidence from BDHS 2022},
+  author  = {Miah, Md Salek and Uddin, Md Jamal},
   journal = {[Journal Name]},
   year    = {2025},
   note    = {Q1 Journal Submission},
@@ -238,30 +180,21 @@ If you use this work, please cite:
 
 ---
 
-## ◈ LICENSE
+## License
 
-```
-MIT License — Copyright (c) 2025 Mohammad Ohid Ullah & Md Salek Miah
+MIT License — Copyright (c) 2025 Md Salek Miah & Md Jamal Uddin
 Open for academic research. Citation required for publication use.
-```
 
 ---
 
 <div align="center">
 
-```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  SHAHJALAL UNIVERSITY OF SCIENCE AND TECHNOLOGY
-  Department of Statistics · Sylhet, Bangladesh
-  Reproductive Health · Spatial Epidemiology · Family Planning
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:00d4ff,100:020409&height=120&section=footer&animation=twinkling" width="100%"/>
+**Biostatistics, Epidemiology, and Public Health Research Team**
+Department of Statistics · Shahjalal University of Science and Technology · Sylhet-3114, Bangladesh
 
 [![Made with Stata](https://img.shields.io/badge/Made%20with-Stata-1A5276?style=flat-square&logoColor=white)](https://www.stata.com)
 [![Made with R](https://img.shields.io/badge/Made%20with-R-276DC3?style=flat-square&logo=r&logoColor=white)](https://r-project.org)
-[![Reproductive Health](https://img.shields.io/badge/Focus-Reproductive%20Health-00d4ff?style=flat-square)](https://github.com)
+[![BDHS 2022](https://img.shields.io/badge/Data-BDHS%202022-00d4ff?style=flat-square)](https://dhsprogram.com)
 [![SUST](https://img.shields.io/badge/University-SUST%20Bangladesh-f59e0b?style=flat-square)](https://www.sust.edu)
 
 *⭐ Star this repo if it helped your research!*
