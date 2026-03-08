@@ -15,9 +15,14 @@
 ![Stata](https://img.shields.io/badge/Stata-1A5276?style=flat-square&logoColor=white)
 ![R](https://img.shields.io/badge/R_4.2+-276DC3?style=flat-square&logo=r&logoColor=white)
 ![BDHS](https://img.shields.io/badge/BDHS_2022-Data-00d4ff?style=flat-square&logoColor=white)
-![Spatial](https://img.shields.io/badge/Spatial_Analysis-228B22?style=flat-square&logoColor=white)
+![sf](https://img.shields.io/badge/sf-spatial-228B22?style=flat-square&logoColor=white)
+![spdep](https://img.shields.io/badge/spdep-spatial%20dependence-6A0DAD?style=flat-square&logoColor=white)
+![spatialreg](https://img.shields.io/badge/spatialreg-spatial%20regression-DC143C?style=flat-square&logoColor=white)
+![tmap](https://img.shields.io/badge/tmap-thematic%20maps-f59e0b?style=flat-square&logoColor=white)
 ![ggplot2](https://img.shields.io/badge/ggplot2-ef4444?style=flat-square&logoColor=white)
 ![tidyverse](https://img.shields.io/badge/tidyverse-1a73e8?style=flat-square&logo=r&logoColor=white)
+![viridis](https://img.shields.io/badge/viridis-color%20scales-10b981?style=flat-square&logoColor=white)
+![patchwork](https://img.shields.io/badge/patchwork-plot%20layout-9333ea?style=flat-square&logoColor=white)
 
 </div>
 
@@ -124,14 +129,30 @@ do Spatials.do
 **Step 2 — Spatial Figures (R)**
 
 ```r
-install.packages(c(
-  "tidyverse",   # data wrangling
-  "sf",          # spatial data handling
-  "ggplot2",     # visualization
-  "viridis",     # color scales
-  "tmap",        # thematic maps
-  "readr"        # CSV reading
-))
+packages <- c(
+  "sf",           # spatial vector data handling
+  "readxl",       # read Excel files
+  "dplyr",        # data manipulation
+  "stringr",      # string operations
+  "janitor",      # data cleaning utilities
+  "ggplot2",      # core visualization
+  "ggspatial",    # spatial ggplot2 extensions
+  "ggtext",       # rich text in ggplot2
+  "tmap",         # thematic maps
+  "spdep",        # spatial dependence & autocorrelation
+  "spatialreg",   # spatial regression models
+  "rmapshaper",   # simplify spatial geometries
+  "viridis",      # accessible color scales
+  "classInt",     # class interval methods
+  "patchwork",    # combine multiple ggplots
+  "tidyverse"     # complete data science toolkit
+)
+
+installed <- packages %in% rownames(installed.packages())
+if (any(!installed)) {
+  install.packages(packages[!installed], dependencies = TRUE)
+}
+invisible(lapply(packages, library, character.only = TRUE))
 
 source("Spatial_Figures.R")
 ```
