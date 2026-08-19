@@ -1,76 +1,39 @@
-<div align="center">
-<img src="https://avatars.githubusercontent.com/u/180872571?v=4" width="112" height="112" style="border-radius:50%;" alt="Md Salek Miah"/>
+# <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,50:1e40af,100:312e81&height=240&section=header&text=BDHS%20Unmet%20Need%20Analysis&fontSize=44&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Internet%20Use%20%26%20Unmet%20Need%20for%20Family%20Planning%20in%20Bangladesh&descAlignY=55&descSize=18&descColor=e0e7ff" width="100%"/>
 
 <br/>
 
-<sup>BIOSTATISTICS · EPIDEMIOLOGY · PUBLIC HEALTH RESEARCH TEAM</sup>
-<br/>
-<sup>DEPARTMENT OF STATISTICS · SHAHJALAL UNIVERSITY OF SCIENCE AND TECHNOLOGY</sup>
+# Association Between Internet Use and Unmet Need for Family Planning among Currently Pregnant Women in Bangladesh
 
-<br/><br/>
-
-# Internet Use and Unmet Need for Family Planning
-### among Currently Pregnant Women in Bangladesh
-
-**Evidence from the Bangladesh Demographic and Health Survey (BDHS) 2022**
+### 📍 Evidence from the Bangladesh Demographic and Health Survey (BDHS) 2022
 
 <br/>
 
-`Md Salek Miah` · `Md Jamal Uddin, PhD`
+[![Journal](https://img.shields.io/badge/Published_in-BMC_Women's_Health-1e3a8a?style=for-the-badge&labelColor=0d1117&logo=springernature&logoColor=00d4ff)](https://doi.org/10.1186/s12905-026-04788-2)
+[![DOI](https://img.shields.io/badge/DOI-10.1186%2Fs12905--026--04788--2-7c3aed?style=for-the-badge&labelColor=0d1117)](https://doi.org/10.1186/s12905-026-04788-2)
+[![Open Access](https://img.shields.io/badge/Access-Open_Access-10b981?style=for-the-badge&labelColor=0d1117&logo=unlock&logoColor=10b981)](https://www.springernature.com/gp/open-science/about-the-fundamentals-of-open-access-and-open-research)
+[![Peer Review](https://img.shields.io/badge/Peer_Review-2_Rounds%2C_5_Reviewers-e11d48?style=for-the-badge&labelColor=0d1117)](#-peer-review--revision-trail)
+[![License](https://img.shields.io/badge/License-MIT-f59e0b?style=for-the-badge&labelColor=0d1117)](LICENSE)
 
 <br/>
 
-[![Journal](https://img.shields.io/static/v1?label=BMC+Women's+Health&message=2026&color=13294B&labelColor=13294B&style=flat-square)](https://doi.org/10.1186/s12905-026-04788-2)
-[![DOI](https://img.shields.io/static/v1?label=DOI&message=10.1186/s12905-026-04788-2&color=8C1515&labelColor=13294B&style=flat-square)](https://doi.org/10.1186/s12905-026-04788-2)
-[![OA](https://img.shields.io/static/v1?label=License&message=Open+Access&color=00693E&labelColor=13294B&style=flat-square)](https://www.springernature.com/gp/open-science/about/the-fundamentals-of-open-access-and-open-research)
-[![Review](https://img.shields.io/static/v1?label=Peer+Review&message=2+Rounds+·+5+Reviewers&color=A51C30&labelColor=13294B&style=flat-square)](#peer-review--revision-history)
+<img src="https://readme-typing-svg.demolab.com?font=Georgia&size=17&duration=3000&pause=900&color=1E40AF&center=true&vCenter=true&width=800&lines=Nationally+representative+BDHS+2022+cohort+%7C+n+%3D+4%2C370+pregnant+women;Stepwise+survey-weighted+multivariable+logistic+regression;Divisional+choropleth+mapping+of+unmet+need+prevalence;Full+methodology%2C+figures%2C+tables+%26+peer-review+trail+included;Published+%E2%80%94+BMC+Women's+Health+(2026)" alt="Typing SVG" />
+
+<br/>
+
+<img src="https://img.shields.io/github/last-commit/muhammadsalek/BDHS-Unmet-Need-Analysis?style=flat-square&color=1e40af&labelColor=0d1117" alt="last commit"/>
+<img src="https://img.shields.io/github/languages/top/muhammadsalek/BDHS-Unmet-Need-Analysis?style=flat-square&color=7c3aed&labelColor=0d1117" alt="top language"/>
+<img src="https://img.shields.io/github/repo-size/muhammadsalek/BDHS-Unmet-Need-Analysis?style=flat-square&color=10b981&labelColor=0d1117" alt="repo size"/>
+<img src="https://img.shields.io/badge/Reproducibility-Full_Compendium-f59e0b?style=flat-square&labelColor=0d1117" alt="reproducibility"/>
 
 </div>
 
-<br/>
+---
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=13294B&height=3&width=900" width="100%"/>
-</div>
+## 📖 Citation
 
-<br/>
-
-<table width="100%">
-<tr>
-<td width="60%" valign="top">
-
-### Abstract
-
-Unmet need for family planning is a persistent public health burden in low- and middle-income countries and a core monitoring indicator under **SDG 3 — Universal Health Coverage**. Using nationally representative data from **4,370 currently pregnant women, aged 15–49**, drawn from the BDHS 2022, this study estimates the association between internet use and unmet need for family planning through stepwise survey-weighted multivariable logistic regression, with stratified analyses across residence, division, maternal age, age at first birth, education, and media exposure. Descriptive spatial mapping further characterizes divisional disparities in prevalence.
-
-Overall, **41% of currently pregnant women** reported an unmet need for family planning. Women who used the internet had **83% higher adjusted odds** of unmet need relative to non-users (aOR 1.83, 95% CI 1.52–2.20), with markedly stronger associations among women with no formal education, early age at first birth, and residents of Barishal, Rajshahi, and Sylhet.
-
-</td>
-<td width="40%" valign="top">
-
-<div align="center">
-
-**Published**
-19 August 2026
-
-**Accepted**
-10 August 2026
-
-**Received**
-08 March 2026
-
-<br/>
-
-[**Read the Full Text →**](https://link.springer.com/content/pdf/10.1186/s12905-026-04788-2_reference.pdf)
-[**Supplementary Material →**](https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12905-026-04788-2/MediaObjects/12905_2026_4788_MOESM1_ESM.docx)
-
-</div>
-
-</td>
-</tr>
-</table>
-
-<br/>
+> Miah, M.S., Uddin, M.J. **Association between internet use and unmet need for family planning among currently pregnant women in Bangladesh: evidence from BDHS 2022.** *BMC Women's Health* (2026). https://doi.org/10.1186/s12905-026-04788-2
 
 ```bibtex
 @article{miah_uddin_2026_unmet_need,
@@ -80,273 +43,305 @@ Overall, **41% of currently pregnant women** reported an unmet need for family p
   journal  = {BMC Women's Health},
   year     = {2026},
   doi      = {10.1186/s12905-026-04788-2},
-  url      = {https://doi.org/10.1186/s12905-026-04788-2}
+  url      = {https://doi.org/10.1186/s12905-026-04788-2},
+  note     = {Open Access}
 }
 ```
 
-<br/>
+<div align="center">
 
-## Figure 1 — Study Design & Methodology
+[![Download PDF](https://img.shields.io/badge/Download-Full_Text_PDF-DC143C?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://link.springer.com/content/pdf/10.1186/s12905-026-04788-2_reference.pdf)
+[![Supplementary Material](https://img.shields.io/badge/Supplementary-Material_1_(.docx)-228B22?style=for-the-badge&logo=microsoftword&logoColor=white)](https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12905-026-04788-2/MediaObjects/12905_2026_4788_MOESM1_ESM.docx)
+
+</div>
+
+---
+
+## 🧭 Overview
+
+<img align="right" width="280" src="https://capsule-render.vercel.app/api?type=venom&color=1e40af&height=140&section=footer"/>
+
+Unmet need for family planning remains a persistent public health challenge in low- and middle-income countries and a core indicator for **SDG 3 — Universal Health Coverage**. This study is among the first to examine how **internet use** relates to unmet need for family planning specifically among **currently pregnant women** in Bangladesh, integrating nationally representative survey data with divisional spatial mapping to surface where the burden concentrates.
+
+This repository is a **complete, transparent research compendium** — not just analysis scripts. It contains the full audit trail from raw modeling through two rounds of peer review to the final published figures and tables, in line with open-science and reproducibility norms (STROBE-compliant reporting).
+
+<br clear="right"/>
+
+---
+
+## 👥 Authors & Affiliations
 
 <div align="center">
 
 <table>
-<tr><td>
+<tr>
+<td width="50%" valign="top" align="center">
 
-```
-┌──────────────────────────────────────────────────────────────────┐
-│                                                                    │
-│                         FIGURE 1 PREVIEW                          │
-│                                                                    │
-│     Participant flow & analytic pipeline — rendered from          │
-│     Flowchart.tex / Contraception_BD.pdf                          │
-│                                                                    │
-│     To display inline here, export Figure 1.pdf → Figure_1.png    │
-│     (300 dpi) and place it in an /assets or /figures folder,      │
-│     then this block becomes:                                      │
-│                                                                    │
-│         ![Figure 1](figures/Figure_1.png)                         │
-│                                                                    │
-└──────────────────────────────────────────────────────────────────┘
-```
+### 🧑‍🔬 Md Salek Miah *(First Author)*
 
-</td></tr>
+<img src="https://avatars.githubusercontent.com/u/180872571?s=400&u=333ef9765334c58c8a6ca317aecf9044d182e8ff&v=4" width="140" style="border-radius:50%; border: 3px solid #1e40af;"/>
+
+Research Assistant, Department of Statistics  
+Shahjalal University of Science and Technology (SUST)  
+Sylhet-3114, Bangladesh
+
+📧 [saleksta@gmail.com](mailto:saleksta@gmail.com)
+
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0005--5973--461X-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0005-5973-461X)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-salek-miah-b34309329/)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.co.uk/scholar?as_sauthors=%22Md%20Salek%20Miah%22)
+[![Springer](https://img.shields.io/badge/Springer-Author_Profile-1e3a8a?style=flat-square&logo=springer&logoColor=white)](https://link.springer.com/researchers/74308750SN)
+[![YouTube](https://img.shields.io/badge/YouTube-@SalekResearch-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@SalekResearch)
+
+</td>
+<td width="50%" valign="top" align="center">
+
+### 🎓 Md Jamal Uddin, Ph.D. *(Corresponding Author)*
+
+<img src="https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=tMZWkOUAAAAJ&citpid=7" width="140" style="border-radius:50%; border: 3px solid #1e40af;" alt="Md Jamal Uddin"/>
+
+Professor, Department of Statistics, SUST, Sylhet-3114, Bangladesh  
+Faculty of Graduate Education, Daffodil International University, Dhaka
+
+📞 +8801716972846  
+📧 [jamal-sta@sust.edu](mailto:jamal-sta@sust.edu)
+
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--8360--3274-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0000-0002-8360-3274)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=tMZWkOUAAAAJ)
+
+</td>
+</tr>
 </table>
 
-📄 [`Figure 1.pdf`](Figure%201.pdf) · 📄 [`Contraception_BD.pdf`](Contraception_BD.pdf) · 🧾 [`Flowchart.tex`](Flowchart.tex)
+**Biostatistics, Epidemiology, and Public Health Research Team**  
+Department of Statistics · Shahjalal University of Science & Technology (SUST) · Sylhet-3114, Bangladesh
 
 </div>
 
-<br/>
+---
+
+## 🔬 Methodology at a Glance
+
+<div align="center">
+
+| Feature | Details |
+|:--|:--|
+| **Exposure Variable** | Internet use (frequency and access) |
+| **Outcome Variable** | Unmet need for family planning |
+| **Population** | Currently pregnant women, 15–49 years |
+| **Sample Size** | n = 4,370 |
+| **Survey Design** | BDHS 2022 complex survey with proper weighting |
+| **Statistical Method** | Stepwise survey-weighted multivariable logistic regression · aOR/cOR · 95% CI |
+| **Stratification** | Residence · division · maternal age · age at first birth · education · media exposure |
+| **Spatial Scope** | 8 divisions of Bangladesh |
+| **Spatial Method** | Descriptive divisional choropleth mapping |
+| **Reporting Standard** | STROBE-compliant, with a participant-flow methodology flowchart |
+| **Output Format** | 300 DPI publication-ready figures and formatted tables |
+| **Peer Review** | 2 rounds, 5 independent reviewers — full trail archived in this repository |
+| **AI Disclosure** | Grammarly / QuillBot / GPT-4 used for language editing only — no AI involvement in data generation, analysis, or interpretation |
+
+</div>
+
+---
+
+## 🔄 Analytical Pipeline
 
 ```mermaid
 flowchart TD
-    A[BDHS 2022 Sampling Frame] --> B[Currently Pregnant Women Identified]
-    B --> C[Exclusions: Missing Exposure / Outcome Data]
-    C --> D[Analytic Sample — n = 4,370]
-    D --> E[Survey-Weighted Descriptive Analysis]
-    D --> F[Stepwise Multivariable Logistic Regression]
-    F --> G[Stratified Subgroup Analyses]
-    D --> H[Divisional Spatial Mapping — R]
-    G --> I[Final Adjusted Models]
-    H --> I
-    I --> J[Manuscript · Tables 1–2 · Figure 1]
+    A["📊 BDHS 2022<br/>n = 4,370 currently pregnant women, 15–49y"] --> B["🧹 Preprocessing & Survey Weighting<br/>cleaning · recoding · complex design"]
+    B --> C["📈 Stepwise Survey-Weighted<br/>Multivariable Logistic Regression (Stata)"]
+    C --> D["🧩 Stratified Analyses<br/>residence · division · age · education · media exposure"]
+    C --> E["🗺️ Spatial / Divisional<br/>Choropleth Mapping (R)"]
+    D --> F["📑 Q1 Journal Figures · Tables · Maps"]
+    E --> F
+    F --> G["🔁 2 Rounds Peer Review<br/>5 Reviewers"]
+    G --> H["✅ Published — BMC Women's Health (2026)"]
 
-    style A fill:#13294B,stroke:#0d1117,color:#fff
-    style B fill:#1B3A6B,stroke:#0d1117,color:#fff
-    style C fill:#5C5C5C,stroke:#0d1117,color:#fff
-    style D fill:#8C1515,stroke:#0d1117,color:#fff
-    style E fill:#00693E,stroke:#0d1117,color:#fff
-    style F fill:#00693E,stroke:#0d1117,color:#fff
-    style G fill:#A51C30,stroke:#0d1117,color:#fff
-    style H fill:#0072CE,stroke:#0d1117,color:#fff
-    style I fill:#13294B,stroke:#0d1117,color:#fff
-    style J fill:#8C1515,stroke:#0d1117,color:#fff
+    style A fill:#1e3a8a,stroke:#0d1117,color:#fff
+    style B fill:#1e40af,stroke:#0d1117,color:#fff
+    style C fill:#312e81,stroke:#0d1117,color:#fff
+    style D fill:#6a0dad,stroke:#0d1117,color:#fff
+    style E fill:#228b22,stroke:#0d1117,color:#fff
+    style F fill:#f59e0b,stroke:#0d1117,color:#fff
+    style G fill:#e11d48,stroke:#0d1117,color:#fff
+    style H fill:#10b981,stroke:#0d1117,color:#fff
 ```
 
-<br/>
+---
+
+## 🔑 Key Findings
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=13294B&height=3&width=900" width="100%"/>
+
+| Metric | Estimate |
+|:--|:--:|
+| 👥 Sample size | **n = 4,370** currently pregnant women, 15–49 years |
+| 📉 Prevalence of unmet need for FP | **41%** |
+| 🌐 Internet use → unmet need (adjusted) | **aOR = 1.83** (95% CI: 1.52–2.20) |
+| 🍼 Early age at first birth (10–17y) | **aOR = 2.70** (95% CI: 1.91–3.82) |
+| 🎂 Age 25–34 years | **aOR = 2.41** (95% CI: 1.82–3.17) |
+| 📚 No formal education | **aOR = 5.34** (95% CI: 1.70–16.71) |
+| 📍 Barishal division | **aOR = 3.24** (95% CI: 1.99–5.28) |
+| 📍 Rajshahi division | **aOR = 3.30** (95% CI: 1.62–6.72) |
+| 📍 Sylhet division | **aOR = 2.98** (95% CI: 1.96–4.53) |
+| 🗺️ Highest raw prevalence (spatial) | **Chattogram** division |
+
 </div>
 
-## Principal Findings
+> Internet use was significantly associated with a higher unmet need for family planning among currently pregnant women in Bangladesh, with the strength of association varying meaningfully across socio-demographic and regional subgroups — evidence that can help target family planning programs toward the population groups carrying the greatest burden.
 
-<table width="100%">
-<tr>
-<td width="33%" align="center" valign="top">
-
-### 41%
-Prevalence of unmet need for family planning among currently pregnant women
-
-</td>
-<td width="33%" align="center" valign="top">
-
-### 1.83×
-Adjusted odds of unmet need among internet users vs. non-users
-`95% CI 1.52–2.20`
-
-</td>
-<td width="33%" align="center" valign="top">
-
-### 4,370
-Currently pregnant women, ages 15–49, nationally representative
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-**Adjusted Odds Ratios — Stratified Subgroup Estimates**
-
-| Subgroup | aOR | 95% CI |
-|:--|:--:|:--:|
-| Internet use (overall effect) | `1.83` | 1.52 – 2.20 |
-| Age at first birth, 10–17 years | `2.70` | 1.91 – 3.82 |
-| Maternal age, 25–34 years | `2.41` | 1.82 – 3.17 |
-| No formal education | `5.34` | 1.70 – 16.71 |
-| Sylhet division | `2.98` | 1.96 – 4.53 |
-| Barishal division | `3.24` | 1.99 – 5.28 |
-| Rajshahi division | `3.30` | 1.62 – 6.72 |
+### 📊 Effect Size Snapshot (Adjusted Odds Ratios)
 
 ```
-No formal education    ████████████████████████████████████████████████  5.34
-Rajshahi division      ██████████████████████████████░░░░░░░░░░░░░░░░░░  3.30
-Barishal division      ███████████████████████████████░░░░░░░░░░░░░░░░░  3.24
-Sylhet division        ██████████████████████████████░░░░░░░░░░░░░░░░░░  2.98
-Early first birth      █████████████████████████████░░░░░░░░░░░░░░░░░░░  2.70
-Age 25–34               █████████████████████████████░░░░░░░░░░░░░░░░░░░  2.41
-Internet use, overall   ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  1.83
-                         0        1        2        3        4        5+     aOR
+Internet use (overall) ████████████░░░░░░░░░░░░░░░░░░  aOR 1.83
+Sylhet division         ████████████████████░░░░░░░░░░  aOR 2.98
+Age 25–34               ████████████████░░░░░░░░░░░░░░  aOR 2.41
+Early first birth       ██████████████████░░░░░░░░░░░░  aOR 2.70
+Barishal division       █████████████████████░░░░░░░░░  aOR 3.24
+Rajshahi division       ██████████████████████░░░░░░░░  aOR 3.30
+No formal education     ████████████████████████████░░  aOR 5.34
+                         0        1        2       3       4       5+
 ```
 
-> Descriptive spatial analysis further identified **Chattogram** as the division with the highest raw prevalence of unmet need for family planning, distinct from the divisions showing the strongest *adjusted* internet-use associations — underscoring that raw prevalence and modeled risk factors surface different policy targets.
+---
 
-<br/>
+## 📊 Key Figures
+
+### Figure 1: Participant Flowchart — Sample Selection from BDHS 2022
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=13294B&height=3&width=900" width="100%"/>
+
+| **Figure 1: Participant selection and analytical workflow from BDHS 2022** |
+|:--:|
+| <img src="Contraception_BD.pdf" alt="Participant selection and analytical workflow from BDHS 2022" width="75%"/> |
+| *Caption: Participant selection and analytical workflow from BDHS 2022. The flowchart illustrates the step-by-step process from initial sample selection (n = 30,129) to final analytical cohort (n = 4,370 currently pregnant women aged 15–49 years).* |
+| [⬇️ Download PDF](Contraception_BD.pdf) |
+
 </div>
 
-## Research Team
+---
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-<img src="https://avatars.githubusercontent.com/u/180872571?v=4" width="72" height="72" style="border-radius:50%;" align="left" hspace="14"/>
-
-**Md Salek Miah**
-*First Author*
-Research Assistant, Department of Statistics
-Shahjalal University of Science and Technology (SUST)
-
-📧 saleksta@gmail.com
-[ORCID](https://orcid.org/0009-0005-5973-461X) · [LinkedIn](https://www.linkedin.com/in/md-salek-miah-b34309329/) · [Google Scholar](https://scholar.google.co.uk/scholar?as_sauthors=%22Md%20Salek%20Miah%22) · [Springer Profile](https://link.springer.com/researchers/74308750SN) · [YouTube](https://www.youtube.com/@SalekResearch)
-
-</td>
-<td width="50%" valign="top">
-
-**Md Jamal Uddin, Ph.D.**
-*Corresponding Author*
-Professor, Department of Statistics, SUST
-Faculty of Graduate Education, Daffodil International University, Dhaka
-
-📞 +8801716972846
-📧 jamal-sta@sust.edu
-[ORCID](https://orcid.org/0000-0002-8360-3274)
-
-</td>
-</tr>
-</table>
-
-<div align="center"><sub>Biostatistics, Epidemiology, and Public Health Research Team · Department of Statistics · SUST, Sylhet-3114, Bangladesh</sub></div>
-
-<br/>
+### Figure 2: Divisional Prevalence of Unmet Need for Family Planning
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=13294B&height=3&width=900" width="100%"/>
+
+| **Figure 2: Choropleth map of unmet need prevalence across Bangladesh divisions** |
+|:--:|
+| <img src="Figure%201.pdf" alt="Choropleth map showing the prevalence of unmet need for family planning across the 8 divisions of Bangladesh" width="85%"/> |
+| *Caption: Choropleth map showing the prevalence of unmet need for family planning across the 8 divisions of Bangladesh (BDHS 2022). Data sourced from the BDHS 2022 survey, representing 4,370 currently pregnant women aged 15–49 years.* |
+
 </div>
 
-## Repository Contents
+---
+
+## 📁 Repository Structure
+
+```bash
+BDHS-Unmet-Need-Analysis/
+│
+├── 📘 README.md                           # You are here
+├── 📄 LICENSE                             # MIT License
+│
+├── 📊 ANALYSIS CODE
+│   ├── Analysis.do                        # Main Stata script (descriptive + stepwise logistic regression)
+│   ├── Spatials.do                        # Stata spatial data preparation
+│   └── Spatial_Figures.R                  # R script for divisional choropleth maps
+│
+├── 🗃️ DATA
+│   ├── descriptive_data.dta               # Cleaned analytic dataset (Stata format)
+│   └── division_unmet_need_share.csv      # Division-level prevalence estimates
+│
+├── 🖼️ METHODOLOGY & FIGURES
+│   ├── Flowchart.tex                      # LaTeX source — participant selection flowchart
+│   ├── Contraception_BD.pdf               # Rendered methodology flowchart (PDF) — Figure 1
+│   └── Figure 1.pdf                       # Manuscript Figure 2 — Choropleth map
+│
+├── 📑 PUBLICATION TABLES
+│   ├── Table 1.docx                       # Table 1 — sample characteristics
+│   └── Table 2.docx                       # Table 2 — regression results
+│
+├── 📁 PEER REVIEW & REVISION TRAIL
+│   ├── reviewrs 2.pdf                     # Reviewer 2 comments (Round 1)
+│   ├── Tracked_Changed_Comments_Reviewr_1.pdf   # Reviewer 1 tracked-changes (Round 1)
+│   ├── RESPONSE LETTER.pdf                # Author response letter (Round 1)
+│   ├── Reviewr 3.pdf                      # Reviewer 3 comments (Round 2)
+│   ├── Reviewr 4.docx                     # Reviewer 4 comments (Round 2)
+│   ├── Reviewr 5.docx                     # Reviewer 5 comments (Round 2)
+│   └── Response Letter_V2.pdf             # Author response letter (Round 2)
+│
+└── 📦 ARCHIVE
+    └── BDHS-Professor-Repository-Upgrade.zip   # Archived version (2026)
 
 ```
-BDHS-Unmet-Need-Analysis
-│
-├── README.md
-├── LICENSE
-│
-├── analysis/
-│   ├── Analysis.do                          Stata — descriptive statistics & stepwise logistic regression
-│   ├── Spatials.do                          Stata — spatial data preparation
-│   └── Spatial_Figures.R                    R — divisional choropleth mapping
-│
-├── data/
-│   ├── descriptive_data.dta                 Cleaned analytic sample (Stata)
-│   └── division_unmet_need_share.csv        Division-level prevalence estimates
-│
-├── figures/
-│   ├── Flowchart.tex                        LaTeX source — participant flow diagram
-│   ├── Contraception_BD.pdf                 Rendered methodology flowchart
-│   └── Figure 1.pdf                         Manuscript Figure 1
-│
-├── tables/
-│   ├── Table 1.docx                         Sample characteristics
-│   └── Table 2.docx                         Regression results
-│
-├── peer_review/
-│   ├── reviewrs 2.pdf                       Reviewer 2 — Round 1
-│   ├── Tracked_Changed_Comments_Reviewr_1.pdf   Reviewer 1 — Round 1
-│   ├── RESPONSE LETTER.pdf                  Author response — Round 1
-│   ├── Reviewr 3.pdf                        Reviewer 3 — Round 2
-│   ├── Reviewr 4.docx                       Reviewer 4 — Round 2
-│   ├── Reviewr 5.docx                       Reviewer 5 — Round 2
-│   └── Response Letter_V2.pdf               Author response — Round 2
-│
-└── BDHS-Professor-Repository-Upgrade.zip    Archived repository snapshot
-```
 
-<br/>
+---
 
-## Peer Review & Revision History
+## 🔁 Peer Review & Revision Trail
 
-This repository preserves the **complete editorial record** of the manuscript, from initial submission through acceptance at *BMC Women's Health* — offered in the interest of transparent, reproducible science and as documentation of the study's methodological rigor.
+This repository documents the **complete editorial history** of the manuscript from submission to acceptance at *BMC Women's Health* — provided in the spirit of open, transparent, and reproducible science.
 
 ```mermaid
 timeline
-    title Editorial Timeline — BMC Women's Health
-    08 Mar 2026 : Manuscript Submitted
-    Round 1 Review : Reviewer 1 (tracked changes) : Reviewer 2 : Author Response Letter v1
-    Round 2 Review : Reviewer 3 : Reviewer 4 : Reviewer 5 : Author Response Letter v2
-    10 Aug 2026 : Manuscript Accepted
-    19 Aug 2026 : Published Open Access
+    title Editorial Timeline
+    08 Mar 2026 : Manuscript Received
+    Round 1 : Reviewer 1 & 2 Comments : Author Response Letter v1
+    Round 2 : Reviewer 3, 4 & 5 Comments : Author Response Letter v2
+    10 Aug 2026 : Accepted
+    19 Aug 2026 : Published — BMC Women's Health
 ```
 
-<table width="100%">
-<tr><th align="left" width="15%">Round</th><th align="left" width="45%">Reviewer Correspondence</th><th align="left" width="40%">Author Response</th></tr>
-<tr>
-<td valign="top"><b>Round 1</b></td>
-<td valign="top">
+| Round | Reviewer Feedback | Author Response |
+|:--:|:--|:--|
+| **Round 1** | [`reviewrs 2.pdf`](reviewrs%202.pdf) · [`Tracked_Changed_Comments_Reviewr_1.pdf`](Tracked_Changed_Comments_Reviewr_1.pdf) | [`RESPONSE LETTER.pdf`](RESPONSE%20LETTER.pdf) |
+| **Round 2** | [`Reviewr 3.pdf`](Reviewr%203.pdf) · [`Reviewr 4.docx`](Reviewr%204.docx) · [`Reviewr 5.docx`](Reviewr%205.docx) | [`Response Letter_V2.pdf`](Response%20Letter_V2.pdf) |
 
-[`Tracked_Changed_Comments_Reviewr_1.pdf`](Tracked_Changed_Comments_Reviewr_1.pdf)
-[`reviewrs 2.pdf`](reviewrs%202.pdf)
+> **Timeline:** Received 08 March 2026 → Accepted 10 August 2026 → Published 19 August 2026 — five independent reviewers across two revision rounds.
 
-</td>
-<td valign="top">
+---
 
-[`RESPONSE LETTER.pdf`](RESPONSE%20LETTER.pdf)
+## 🗂️ Data Source
 
-</td>
-</tr>
-<tr>
-<td valign="top"><b>Round 2</b></td>
-<td valign="top">
+| Dataset | Source | Description |
+|:--|:--|:--|
+| **BDHS 2022** | [DHS Program](https://dhsprogram.com) | Bangladesh Demographic & Health Survey 2022 |
+| **Division Shapefile** | Bangladesh Admin Boundaries | 8 Divisions — spatial polygons |
+| `descriptive_data.dta` | Cleaned analytic sample | Currently pregnant women, 15–49y, weighted |
+| `division_unmet_need_share.csv` | Derived from BDHS | Division-level prevalence of unmet need |
 
-[`Reviewr 3.pdf`](Reviewr%203.pdf)
-[`Reviewr 4.docx`](Reviewr%204.docx)
-[`Reviewr 5.docx`](Reviewr%205.docx)
+> **Note:** Raw DHS microdata requires registration at [dhsprogram.com](https://dhsprogram.com). Derived/aggregated data files in this repository are freely available.
 
-</td>
-<td valign="top">
+---
 
-[`Response Letter_V2.pdf`](Response%20Letter_V2.pdf)
+## 🛠️ Tech Stack
 
-</td>
-</tr>
-</table>
+<div align="center">
+
+![Stata](https://img.shields.io/badge/Stata-1A5276?style=for-the-badge&logoColor=white)
+![R](https://img.shields.io/badge/R_4.2+-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![LaTeX](https://img.shields.io/badge/LaTeX-Flowchart-008080?style=for-the-badge&logo=latex&logoColor=white)
+![BDHS](https://img.shields.io/badge/BDHS_2022-Data-00d4ff?style=for-the-badge&logoColor=white)
 
 <br/>
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=13294B&height=3&width=900" width="100%"/>
+![sf](https://img.shields.io/badge/sf-spatial-228B22?style=flat-square&logoColor=white)
+![spdep](https://img.shields.io/badge/spdep-spatial%20dependence-6A0DAD?style=flat-square&logoColor=white)
+![spatialreg](https://img.shields.io/badge/spatialreg-spatial%20regression-DC143C?style=flat-square&logoColor=white)
+![tmap](https://img.shields.io/badge/tmap-thematic%20maps-f59e0b?style=flat-square&logoColor=white)
+![ggplot2](https://img.shields.io/badge/ggplot2-ef4444?style=flat-square&logoColor=white)
+![tidyverse](https://img.shields.io/badge/tidyverse-1a73e8?style=flat-square&logo=r&logoColor=white)
+![viridis](https://img.shields.io/badge/viridis-color%20scales-10b981?style=flat-square&logoColor=white)
+![patchwork](https://img.shields.io/badge/patchwork-plot%20layout-9333ea?style=flat-square&logoColor=white)
+
 </div>
 
-## Reproducing the Analysis
+---
 
-**Environment:** Stata ≥ 15 · R ≥ 4.2 · LaTeX *(optional, for flowchart compilation)*
+## 🚀 Quick Start
 
-**1 — Statistical modeling (Stata)**
+**Requirements:** Stata `>= 15` · R `>= 4.2` · LaTeX (for flowchart compilation, optional)
+
+<details open>
+<summary><b>Step 1 — Statistical Analysis (Stata)</b></summary>
 
 ```stata
 cd "/path/to/BDHS-Unmet-Need-Analysis"
@@ -355,97 +350,99 @@ do Analysis.do
 do Spatials.do
 ```
 
-**2 — Spatial figures (R)**
+</details>
+
+<details open>
+<summary><b>Step 2 — Spatial Figures (R)</b></summary>
 
 ```r
 packages <- c(
   "sf", "readxl", "dplyr", "stringr", "janitor",
-  "ggplot2", "ggspatial", "ggtext", "tmap", "spdep",
-  "spatialreg", "rmapshaper", "viridis", "classInt",
-  "patchwork", "tidyverse"
+  "ggplot2", "ggspatial", "ggtext", "tmap",
+  "spdep", "spatialreg", "rmapshaper",
+  "viridis", "classInt", "patchwork", "tidyverse"
 )
 
 installed <- packages %in% rownames(installed.packages())
-if (any(!installed)) install.packages(packages[!installed], dependencies = TRUE)
+if (any(!installed)) {
+  install.packages(packages[!installed], dependencies = TRUE)
+}
 invisible(lapply(packages, library, character.only = TRUE))
 
 source("Spatial_Figures.R")
 ```
 
-**3 — Methodology flowchart (LaTeX, optional)**
+</details>
+
+<details>
+<summary><b>Step 3 — Methodology Flowchart (LaTeX, optional)</b></summary>
 
 ```bash
-pdflatex Flowchart.tex     # → Contraception_BD.pdf
+pdflatex Flowchart.tex
+# → renders Contraception_BD.pdf
 ```
 
-<br/>
+</details>
 
-## Data Provenance
+---
 
-| Dataset | Source | Description |
-|:--|:--|:--|
-| BDHS 2022 | [DHS Program](https://dhsprogram.com) | Bangladesh Demographic & Health Survey, 2022 round |
-| Division boundaries | Bangladesh Admin Boundaries | 8 administrative divisions, spatial polygons |
-| `descriptive_data.dta` | Derived from BDHS 2022 | Cleaned, weighted analytic sample — currently pregnant women, 15–49y |
-| `division_unmet_need_share.csv` | Derived from BDHS 2022 | Division-level prevalence of unmet need |
-
-Raw DHS microdata requires registration and approval via [dhsprogram.com](https://dhsprogram.com); derived, de-identified outputs in this repository are freely available for reuse with citation.
-
-<br/>
-
-## Methods Summary
-
-| | |
-|:--|:--|
-| **Design** | Cross-sectional, nationally representative |
-| **Population** | Currently pregnant women, 15–49 years (n = 4,370) |
-| **Exposure** | Internet use (frequency and access) |
-| **Outcome** | Unmet need for family planning |
-| **Survey design** | Complex survey weighting, per BDHS sampling protocol |
-| **Primary model** | Stepwise survey-weighted multivariable logistic regression |
-| **Stratification** | Residence, division, maternal age, age at first birth, education, media exposure |
-| **Spatial analysis** | Descriptive divisional choropleth mapping (R) |
-| **Reporting standard** | STROBE-compliant, with participant-flow diagram |
-| **Generative AI use** | Grammarly, QuillBot, and GPT-4 for language editing only — no role in data generation, analysis, or interpretation |
-
-<br/>
-
-## Significance
-
-| Domain | Contribution |
-|:--|:--|
-| Reproductive health | First evidence linking internet use to unmet need for family planning among *pregnant* women in Bangladesh |
-| Spatial epidemiology | Divisional mapping reveals geographic disparities distinct from adjusted risk-factor patterns |
-| Global health policy | Directly informs SDG 3 (Universal Health Coverage) monitoring |
-| Programmatic targeting | Subgroup-specific estimates support precision targeting of family planning services |
-| Open science | Full compendium — code, data, figures, tables, and complete peer-review record |
-
-<br/>
-
-## Salek Data Lab
-
-Open educational content on DHS data management, survey-weighted regression, and applied biostatistics workflows in R and Stata.
+## 🌍 Research Impact
 
 <div align="center">
 
-[![YouTube](https://img.shields.io/static/v1?label=YouTube&message=%40SalekResearch&color=FF0000&labelColor=13294B&style=for-the-badge)](https://www.youtube.com/@SalekResearch)
+| 🩺 Reproductive Health | 🗺️ Spatial Epidemiology | 🌐 Public Health | 📋 Health Policy | 🔓 Open Science |
+|:--:|:--:|:--:|:--:|:--:|
+| Digital determinants of family planning uptake among pregnant women | Maps geographic disparities in unmet need across 8 divisions | Evidence for SDG 3 — Universal Health Coverage monitoring | Subgroup-level insight for targeted FP interventions | Full compendium — code, data, figures, tables, peer-review trail |
 
 </div>
 
-<br/>
+---
+
+## 🎓 Learn the Methods — Salek Data Lab
+
+Free, hands-on tutorials on DHS data management, survey-weighted logistic regression, and R/Stata workflows for public health research:
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=13294B&height=3&width=900" width="100%"/>
+
+[![YouTube](https://img.shields.io/badge/YouTube-Salek_Research_Hub-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@SalekResearch)
+[![Website](https://img.shields.io/badge/Website-Salek_Data_Lab-1e3a8a?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/muhammadsalek)
+
 </div>
 
+---
+
+## 📜 License
+
+**MIT License** (code) — Copyright (c) 2026 Md Salek Miah & Md Jamal Uddin
+
+Article content is licensed **CC BY-NC-ND 4.0** by the authors under BMC Women's Health / Springer Nature. Citation required for any reuse.
+
+---
+
+## 📞 Contact & Collaboration
+
 <div align="center">
 
-<sub>**License:** MIT (code) · Article content © 2026 The Author(s), licensed CC BY-NC-ND 4.0 via BMC Women's Health / Springer Nature</sub>
+**Biostatistics, Epidemiology, and Public Health Research Team**  
+Department of Statistics · Shahjalal University of Science and Technology · Sylhet-3114, Bangladesh
 
-<sub>Biostatistics, Epidemiology, and Public Health Research Team · Department of Statistics · Shahjalal University of Science and Technology · Sylhet-3114, Bangladesh</sub>
+[![Email](https://img.shields.io/badge/Email-saleksta@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saleksta@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-muhammadsalek-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/muhammadsalek)
+[![Twitter](https://img.shields.io/badge/Twitter-@SalekResearch-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/salekresearch)
 
-<br/><br/>
+</div>
 
-<sub>⭐ If this repository supports your research, please consider starring it.</sub>
+---
+
+<div align="center">
+
+[![Made with Stata](https://img.shields.io/badge/Made%20with-Stata-1A5276?style=flat-square&logoColor=white)](https://www.stata.com)
+[![Made with R](https://img.shields.io/badge/Made%20with-R-276DC3?style=flat-square&logo=r&logoColor=white)](https://r-project.org)
+[![BDHS 2022](https://img.shields.io/badge/Data-BDHS%202022-00d4ff?style=flat-square)](https://dhsprogram.com)
+[![SUST](https://img.shields.io/badge/University-SUST%20Bangladesh-f59e0b?style=flat-square)](https://www.sust.edu)
+
+*⭐ Star this repo if it helped your research!*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:312e81,50:1e40af,100:1e3a8a&height=110&section=footer" width="100%"/>
 
 </div>
