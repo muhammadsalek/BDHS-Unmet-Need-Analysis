@@ -1,106 +1,172 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1F3A,45:173B6C,100:2B59C3&height=230&section=header&text=BDHS%20Unmet%20Need%20Analysis&fontSize=43&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36&desc=Internet%20Use%20%26%20Family%20Planning%20%7C%20Bangladesh%20%7C%20BDHS%202022&descAlignY=57&descSize=18" width="100%" alt="Repository header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06111F,35:0B3159,72:1768A8,100:2D9ECF&height=245&section=header&text=BDHS%20Unmet%20Need%20Analysis&fontSize=45&fontColor=FFFFFF&animation=fadeIn&fontAlignY=34&desc=Interactive%20Research%20Repository%20%E2%80%A2%20Survey%20Epidemiology%20%E2%80%A2%20Spatial%20Public%20Health&descAlignY=56&descSize=18" width="100%" alt="BDHS Unmet Need Analysis animated header" />
 
 Association Between Internet Use and Unmet Need for Family Planning among Currently Pregnant Women in Bangladesh
 
-A reproducible public-health analysis using the Bangladesh Demographic and Health Survey (BDHS) 2022
+Evidence from the Bangladesh Demographic and Health Survey (BDHS) 2022
 
-<br>
+<br/>
 
+<img src="https://readme-typing-svg.demolab.com?font=Georgia&size=18&duration=2900&pause=850&color=49B7EA&center=true&vCenter=true&width=980&lines=Nationally+representative+BDHS+2022+analysis+%7C+n+%3D+4%2C370;Survey-weighted+multivariable+logistic+regression;Division-level+spatial+public-health+analysis;Published+in+BMC+Women's+Health+%E2%80%94+2026;Reproducible+Stata+%2B+R+research+workflow" alt="Animated study summary" />
 
+<br/>
 
+<a href="https://doi.org/10.1186/s12905-026-04788-2"><img src="https://img.shields.io/badge/Published-BMC%20Women's%20Health-0C7C6C?style=for-the-badge" alt="Published in BMC Women's Health" /></a>
+<a href="https://doi.org/10.1186/s12905-026-04788-2"><img src="https://img.shields.io/badge/DOI-10.1186%2Fs12905--026--04788--2-1768A8?style=for-the-badge" alt="Article DOI" /></a>
+<a href="https://dhsprogram.com/"><img src="https://img.shields.io/badge/Data-BDHS%202022-5846C4?style=for-the-badge" alt="BDHS 2022" /></a>
 
+<br/><br/>
 
+<img src="https://img.shields.io/badge/Stata-%E2%89%A515-1F6B9C?style=flat-square" alt="Stata 15+" />
+<img src="https://img.shields.io/badge/R-%E2%89%A54.2-276DC3?style=flat-square&logo=r&logoColor=white" alt="R 4.2+" />
+<img src="https://img.shields.io/badge/Analysis-Survey--weighted-6E56CF?style=flat-square" alt="Survey weighted" />
+<img src="https://img.shields.io/badge/Spatial-Division--level-1F8C85?style=flat-square" alt="Spatial analysis" />
+<img src="https://img.shields.io/badge/Portal-React%20%2B%20JavaScript-149ECA?style=flat-square&logo=react&logoColor=white" alt="React research portal" />
+<img src="https://img.shields.io/badge/Deployment-GitHub%20Pages-222222?style=flat-square&logo=github" alt="GitHub Pages" />
+<img src="https://img.shields.io/badge/Code-MIT-555555?style=flat-square" alt="MIT License" />
 
+<br/><br/>
 
+<b>Peer-reviewed research · Survey epidemiology · Reproductive health · Spatial analysis · Reproducible research</b>
 
+<br/><br/>
 
-
-
-
-
-<br>
-
-Peer-reviewed research repository · Survey epidemiology · Reproductive health · Spatial public health · Stata + R
-
-Read the article ·
-Explore the workflow ·
-Reproduce the analysis ·
-Cite this work
+<a href="https://doi.org/10.1186/s12905-026-04788-2"><b>Read Article</b></a>
+  •  
+<a href="#-key-findings"><b>Key Findings</b></a>
+  •  
+<a href="#-analytical-workflow"><b>Workflow</b></a>
+  •  
+<a href="#-reproducibility"><b>Reproduce</b></a>
+  •  
+<a href="https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/"><b>Launch Interactive Portal ↗</b></a>
 
 </div>
 
-🧭 Repository at a Glance
+<table>
+<tr>
+<td width="25%" align="center">
+<sub>ANALYTIC SAMPLE</sub><br/><br/>
+<strong>n = 4,370</strong><br/>
+<sub>currently pregnant women</sub>
+</td>
+<td width="25%" align="center">
+<sub>UNMET NEED</sub><br/><br/>
+<strong>41%</strong><br/>
+<sub>weighted prevalence</sub>
+</td>
+<td width="25%" align="center">
+<sub>INTERNET USE</sub><br/><br/>
+<strong>aOR = 1.83</strong><br/>
+<sub>95% CI 1.52–2.20</sub>
+</td>
+<td width="25%" align="center">
+<sub>SPATIAL COVERAGE</sub><br/><br/>
+<strong>8 divisions</strong><br/>
+<sub>Bangladesh</sub>
+</td>
+</tr>
+</table>
 
+[!IMPORTANT]
+This repository is a publication-linked record of the statistical and spatial workflow used in the study. Raw DHS participant-level microdata are not redistributed here.
 
+🧭 Research Overview
 
+<table>
+<tr>
+<td width="58%" valign="top">
 
+Why this study matters
 
-Study population
+Unmet need for family planning remains an important public-health challenge in low- and middle-income settings. This study evaluates the association between internet use and unmet need for family planning among currently pregnant women in Bangladesh using nationally representative BDHS 2022 data.
 
-Currently pregnant women aged 15–49 years
+The repository combines complex-survey statistical analysis with division-level spatial visualization to support transparent research communication and reproducibility.
 
-Dataset
+</td>
+<td width="42%" valign="top">
 
-Bangladesh Demographic and Health Survey (BDHS) 2022
+Study profile
 
-Analytic sample
+Component
+
+Specification
+
+Population
+
+Pregnant women, 15–49 years
+
+Sample
 
 n = 4,370
 
-Primary exposure
+Exposure
 
 Internet use
 
-Primary outcome
+Outcome
 
 Unmet need for family planning
 
-Statistical framework
+Main model
 
-Complex-survey weighted descriptive and multivariable analyses
+Survey-weighted logistic regression
 
-Primary model
+Spatial unit
 
-Stepwise survey-weighted multivariable logistic regression
+8 divisions
 
-Spatial component
-
-Division-level choropleth mapping across Bangladesh
-
-Statistical software
+Software
 
 Stata + R
 
-Publication status
+Publication
 
-Published in BMC Women's Health (2026)
+BMC Women's Health, 2026
 
-Purpose of this repository: to provide a transparent, publication-linked record of the statistical and spatial workflow used in the study, while respecting DHS data-access requirements.
-
-🔬 Research Overview
-
-Unmet need for family planning remains an important public-health challenge in low- and middle-income settings. This study examines whether internet use is associated with unmet need for family planning among currently pregnant women in Bangladesh, using nationally representative BDHS 2022 data and complementary divisional spatial analysis.
-
-The repository brings together the main statistical analysis, spatial data preparation, R-based map generation, and derived division-level outputs used to support the published study.
+</td>
+</tr>
+</table>
 
 Research question
 
+<div align="center">
+
 Among currently pregnant women in Bangladesh, is internet use associated with unmet need for family planning after accounting for relevant socio-demographic and contextual factors?
+
+</div>
 
 🔑 Key Findings
 
-<div align="center">
 <table>
 <tr>
-<td align="center" width="25%"><b>4,370</b><br><sub>Pregnant women</sub></td>
-<td align="center" width="25%"><b>41%</b><br><sub>Unmet need prevalence</sub></td>
-<td align="center" width="25%"><b>1.83</b><br><sub>aOR for internet use</sub></td>
-<td align="center" width="25%"><b>8</b><br><sub>Divisions mapped</sub></td>
+<td width="50%" valign="top">
+
+Primary association
+
+<table>
+<tr><td><b>Internet use</b></td><td><b>aOR 1.83</b></td></tr>
+<tr><td>95% confidence interval</td><td>1.52–2.20</td></tr>
+</table>
+
+The published analysis found a statistically significant positive association between internet use and unmet need for family planning among currently pregnant women.
+
+</td>
+<td width="50%" valign="top">
+
+Spatial signal
+
+<table>
+<tr><td><b>Highest raw prevalence</b></td><td><b>Chattogram</b></td></tr>
+<tr><td>Divisions mapped</td><td>8</td></tr>
+</table>
+
+Regional heterogeneity was examined using both multivariable estimates and division-level spatial visualization.
+
+</td>
 </tr>
 </table>
-</div>
 
 Predictor / estimate
 
@@ -134,106 +200,223 @@ Sylhet division
 
 aOR 2.98 (95% CI 1.96–4.53)
 
-Highest raw spatial prevalence
-
-Chattogram division
-
-The published analysis found a statistically significant positive association between internet use and unmet need for family planning among currently pregnant women, with meaningful socio-demographic and regional heterogeneity.
+[!NOTE]
+Odds ratios are interpreted as associations, not causal effects. The cross-sectional survey design does not by itself establish temporality or causation.
 
 🧪 Analytical Workflow
 
-flowchart TD
-    A[BDHS 2022<br/>Currently pregnant women<br/>n = 4,370] --> B[Data cleaning and recoding]
-    B --> C[Complex survey design<br/>weights · strata · clusters]
-    C --> D[Weighted descriptive analysis]
-    C --> E[Survey-weighted logistic regression]
-    E --> F[Adjusted odds ratios<br/>95% confidence intervals]
-    E --> G[Stratified analyses]
-    D --> H[Division-level estimates]
-    H --> I[Spatial data preparation in Stata]
-    I --> J[Choropleth mapping in R]
-    F --> K[Publication tables and interpretation]
+flowchart LR
+    A[BDHS 2022\nPregnant women\nn = 4,370] --> B[Cleaning + Recoding]
+    B --> C[Survey Design\nWeights · Strata · Clusters]
+    C --> D[Weighted Descriptives]
+    C --> E[Survey-Weighted\nLogistic Regression]
+    E --> F[aOR / cOR\n95% CI]
+    E --> G[Stratified Analysis]
+    D --> H[Division Estimates]
+    H --> I[Spatial Preparation\nStata]
+    I --> J[Choropleth Mapping\nR]
+    F --> K[Publication Outputs]
     G --> K
     J --> K
-    K --> L[Peer-reviewed article<br/>BMC Women's Health · 2026]
+    K --> L[BMC Women's Health\n2026]
 
-Analysis components
+<table>
+<tr>
+<td width="33%" valign="top">
 
-Data preparation — sample restriction, cleaning, recoding, and variable construction.
+01 · Survey design
 
-Survey design — application of BDHS sampling weights and complex survey structure.
+DHS sampling weights
 
-Descriptive epidemiology — weighted prevalence estimates and subgroup summaries.
+clustering
 
-Multivariable modeling — stepwise survey-weighted logistic regression.
+stratification
 
-Effect estimation — crude/adjusted odds ratios and 95% confidence intervals.
+population-level estimation
 
-Stratified analysis — assessment across selected demographic and geographic subgroups.
+</td>
+<td width="33%" valign="top">
 
-Spatial analysis — division-level preparation and choropleth visualization in R.
+02 · Statistical modeling
 
-📂 Repository Structure
+descriptive epidemiology
+
+logistic regression
+
+adjusted odds ratios
+
+95% confidence intervals
+
+</td>
+<td width="33%" valign="top">
+
+03 · Spatial analysis
+
+division-level estimates
+
+Stata preparation
+
+R visualization
+
+publication-ready outputs
+
+</td>
+</tr>
+</table>
+
+⚡ Interactive React Research Portal
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/React-Interactive%20UI-149ECA?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+<img src="https://img.shields.io/badge/JavaScript-Animated%20Interactions-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111" alt="JavaScript" />
+<img src="https://img.shields.io/badge/CSS-Responsive%20Research%20Design-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
+
+</div>
+
+The repository now includes a separate React/Vite research microsite in website/ because a normal GitHub README cannot provide the same JavaScript-driven interaction as a web application.
+
+Portal features
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+animated study counters
+
+canvas particle/network background
+
+scroll-progress indicator
+
+Intersection Observer reveal animations
+
+responsive academic navigation
+
+dark/light theme toggle
+
+interactive effect-estimate selector
+
+</td>
+<td width="50%" valign="top">
+
+animated mini forest-plot display
+
+publication / DOI calls-to-action
+
+one-click DOI copy
+
+downloadable BibTeX
+
+reproducibility asset matrix
+
+accessible reduced-motion mode
+
+mobile-first responsive interface
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+Launch Interactive Research Portal ↗
+
+<sub>Replace the placeholder URL after enabling GitHub Pages.</sub>
+
+</div>
+
+<details>
+<summary><b>▶ Run the React portal locally</b></summary>
+
+cd website
+npm install
+npm run dev
+
+Production build:
+
+npm run build
+npm run preview
+
+</details>
+
+📂 Repository Architecture
 
 BDHS-Unmet-Need-Analysis/
 │
 ├── README.md
-│   └── Project overview, methods, reproducibility, citation and data notes
+├── CITATION.cff
+├── CONTRIBUTING.md
+├── DEPLOYMENT.md
+├── LICENSE
 │
 ├── Analysis.do
-│   └── Main Stata workflow: cleaning, descriptive analysis and regression
+│   └── Main Stata analysis workflow
 │
 ├── Spatials.do
-│   └── Stata preparation of division-level spatial analysis inputs
+│   └── Division-level spatial-data preparation
 │
 ├── Spatial_Figures.R
-│   └── R workflow for publication-ready divisional choropleth figures
+│   └── Publication-ready choropleth workflow
 │
 ├── division_unmet_need_share.csv
-│   └── Derived division-level prevalence estimates
+│   └── Derived division-level estimates
 │
-└── LICENSE
-    └── MIT license for repository code
+├── website/
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── public/
+│   │   ├── favicon.svg
+│   │   └── social-preview.svg
+│   └── src/
+│       ├── App.jsx
+│       ├── data.js
+│       ├── main.jsx
+│       ├── styles.css
+│       └── components/
+│           ├── AnimatedCounter.jsx
+│           ├── Icons.jsx
+│           ├── ParticleField.jsx
+│           └── Reveal.jsx
+│
+└── .github/
+    └── workflows/
+        └── deploy-pages.yml
 
 🗂️ Data Source & Governance
 
-Bangladesh Demographic and Health Survey 2022
+<table>
+<tr>
+<th>Resource</th>
+<th>Access</th>
+<th>Role</th>
+</tr>
+<tr>
+<td><b>BDHS 2022 microdata</b></td>
+<td>Authorized access through DHS Program</td>
+<td>Main individual-level analysis</td>
+</tr>
+<tr>
+<td><b>Bangladesh division boundaries</b></td>
+<td>Administrative spatial data</td>
+<td>Division-level mapping</td>
+</tr>
+<tr>
+<td><code>division_unmet_need_share.csv</code></td>
+<td>Derived repository output</td>
+<td>Spatial visualization</td>
+</tr>
+</table>
 
-The individual-level data used for this study come from the Bangladesh Demographic and Health Survey (BDHS) 2022, distributed through the DHS Program.
-
-Resource
-
-Access
-
-Use in this project
-
-BDHS 2022 microdata
-
-Registration / authorization through DHS Program
-
-Main individual-level statistical analysis
-
-Bangladesh division boundaries
-
-Administrative spatial boundary data
-
-Division-level mapping
-
-division_unmet_need_share.csv
-
-Repository-derived aggregated output
-
-Reproducible spatial visualization
-
-Important data-access note
-
-Raw DHS microdata are not redistributed in this repository. Researchers who wish to reproduce the individual-level analysis must independently request access through the DHS Program and comply with the DHS terms of use.
-
-Responsible use
-
-This repository is intended for research, education, reproducibility, and methodological transparency. Users are responsible for complying with all applicable DHS data-access conditions and for avoiding attempts to identify survey participants.
+[!CAUTION]
+Raw DHS microdata are not included. Researchers must independently obtain access from the DHS Program and comply with its applicable data-use requirements.
 
 🧬 Methodology
+
+<details open>
+<summary><b>Study design and statistical specification</b></summary>
+
+<br/>
 
 Component
 
@@ -273,172 +456,103 @@ Residence, division, maternal age, age at first birth, education, media exposure
 
 Spatial scope
 
-Eight administrative divisions of Bangladesh
+Eight administrative divisions
 
 Spatial method
 
 Descriptive division-level choropleth mapping
 
-Figure output
+</details>
 
-Publication-ready high-resolution graphics
+<details>
+<summary><b>Software stack</b></summary>
 
-Interpretation note
+<br/>
 
-Odds ratios are interpreted as associations, not causal effects. The cross-sectional survey design does not by itself establish temporality or causation.
+Tool
 
-💻 Software & Requirements
+Minimum
 
-Software
-
-Minimum version
-
-Role
+Main role
 
 Stata
 
 15+
 
-Survey analysis, regression, spatial-data preparation
+Survey analysis, regression, spatial preparation
 
 R
 
 4.2+
 
-Spatial visualization and publication-ready mapping
+Spatial visualization
 
-R packages
+React
 
-Spatial_Figures.R uses packages from the spatial and tidyverse ecosystem, including:
+Web portal
 
-sf · readxl · dplyr · stringr · janitor · ggplot2 · ggspatial · ggtext · tmap · spdep · spatialreg · rmapshaper · viridis · classInt · patchwork · tidyverse
+Interactive research communication
 
-🚀 Quick Start
+JavaScript
 
-1. Obtain authorized BDHS 2022 microdata
+Web portal
 
-Request access through the DHS Program and place the required source files in your local analysis environment. Raw DHS files are intentionally not included here.
+Animations and interaction
 
-2. Clone or download this repository
+GitHub Actions
 
-git clone <YOUR-REPOSITORY-URL>
-cd BDHS-Unmet-Need-Analysis
+CI/CD
 
-Replace <YOUR-REPOSITORY-URL> with the actual GitHub repository URL.
+Automatic portal build and deployment
 
-3. Run the Stata workflow
+GitHub Pages
 
-cd "/path/to/BDHS-Unmet-Need-Analysis"
-do Analysis.do
-do Spatials.do
+Hosting
 
-4. Generate spatial figures in R
-
-<details>
-<summary><b>Click to expand R package setup</b></summary>
-
-packages <- c(
-  "sf",
-  "readxl",
-  "dplyr",
-  "stringr",
-  "janitor",
-  "ggplot2",
-  "ggspatial",
-  "ggtext",
-  "tmap",
-  "spdep",
-  "spatialreg",
-  "rmapshaper",
-  "viridis",
-  "classInt",
-  "patchwork",
-  "tidyverse"
-)
-
-installed <- packages %in% rownames(installed.packages())
-
-if (any(!installed)) {
-  install.packages(packages[!installed], dependencies = TRUE)
-}
-
-invisible(lapply(packages, library, character.only = TRUE))
-
-source("Spatial_Figures.R")
+Static deployment of the built portal
 
 </details>
 
+🚀 Quick Start
+
+1 · Obtain authorized BDHS data
+
+Request the required BDHS 2022 files through the DHS Program.
+
+2 · Clone the repository
+
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+cd YOUR-REPOSITORY
+
+3 · Run the Stata workflow
+
+cd "/path/to/YOUR-REPOSITORY"
+do Analysis.do
+do Spatials.do
+
+4 · Generate spatial figures in R
+
+source("Spatial_Figures.R")
+
+5 · Launch the React portal locally
+
+cd website
+npm install
+npm run dev
+
 ♻️ Reproducibility
 
-Reproducibility element
-
-Repository support
-
-Main statistical workflow
-
-✅ Analysis.do
-
-Spatial data preparation
-
-✅ Spatials.do
-
-Spatial figure generation
-
-✅ Spatial_Figures.R
-
-Derived division-level estimates
-
-✅ division_unmet_need_share.csv
-
-Raw DHS microdata
-
-🔒 Restricted by DHS access policy; not redistributed
-
-Software requirements
-
-✅ Documented above
-
-Published DOI
-
-✅ Linked
-
-Code license
-
-✅ MIT
-
-Reproducibility principle
-
-The goal is to make the analytic logic, code, software environment, derived outputs, and publication link transparent while respecting restrictions on participant-level DHS data.
-
-🌍 Public-Health Relevance
-
-Domain
-
-Contribution
-
-Reproductive health
-
-Examines digital access as a correlate of unmet family-planning need
-
-Survey epidemiology
-
-Uses a nationally representative DHS dataset and complex-survey analysis
-
-Spatial epidemiology
-
-Describes regional disparities across Bangladesh's eight divisions
-
-Health equity
-
-Highlights socio-demographic and geographic heterogeneity
-
-Policy translation
-
-Supports more targeted family-planning planning and communication strategies
-
-Open research practice
-
-Links publication, code, derived outputs, and reproducibility guidance
+<table>
+<tr><th>Asset</th><th>Purpose</th><th>Status</th></tr>
+<tr><td><code>Analysis.do</code></td><td>Main statistical workflow</td><td>✅ Available</td></tr>
+<tr><td><code>Spatials.do</code></td><td>Spatial-data preparation</td><td>✅ Available</td></tr>
+<tr><td><code>Spatial_Figures.R</code></td><td>Spatial figure generation</td><td>✅ Available</td></tr>
+<tr><td><code>division_unmet_need_share.csv</code></td><td>Derived division-level estimates</td><td>✅ Available</td></tr>
+<tr><td><code>CITATION.cff</code></td><td>Machine-readable citation metadata</td><td>✅ Available</td></tr>
+<tr><td><code>website/</code></td><td>Interactive research portal</td><td>✅ Available</td></tr>
+<tr><td><code>.github/workflows/deploy-pages.yml</code></td><td>Automated site deployment</td><td>✅ Available</td></tr>
+<tr><td>BDHS participant-level microdata</td><td>Source data</td><td>🔒 Restricted</td></tr>
+</table>
 
 👥 Authors & Affiliations
 
@@ -469,10 +583,10 @@ Shahjalal University of Science and Technology (SUST)
 Sylhet-3114, Bangladesh
 
 Faculty of Graduate Education
-Daffodil International University, Dhaka, Bangladesh
+Daffodil International University
+Dhaka, Bangladesh
 
 📧 jamal-sta@sust.edu
-📞 +8801716972846
 
 </td>
 </tr>
@@ -480,19 +594,20 @@ Daffodil International University, Dhaka, Bangladesh
 
 <div align="center">
 
-Biostatistics, Epidemiology, and Public Health Research Team
-Department of Statistics · Shahjalal University of Science and Technology · Sylhet, Bangladesh
+Biostatistics, Epidemiology & Public Health Research
+
+Department of Statistics · Shahjalal University of Science and Technology · Bangladesh
+
+<sub>The interface uses a high-end academic research design language. It does not imply affiliation with institutions not listed above.</sub>
 
 </div>
 
 📖 Citation
 
-If you use the code, workflow, derived outputs, or methodological structure from this repository, please cite the published article:
-
 Miah, M. S., & Uddin, M. J. (2026). Association between internet use and unmet need for family planning among currently pregnant women in Bangladesh: evidence from BDHS 2022. BMC Women's Health. https://doi.org/10.1186/s12905-026-04788-2
 
 <details>
-<summary><b>BibTeX</b></summary>
+<summary><b>📎 BibTeX</b></summary>
 
 @article{miah_uddin_2026_unmet_need,
   title   = {Association between internet use and unmet need for family planning among currently pregnant women in Bangladesh: evidence from BDHS 2022},
@@ -500,70 +615,53 @@ Miah, M. S., & Uddin, M. J. (2026). Association between internet use and unmet n
   journal = {BMC Women's Health},
   year    = {2026},
   doi     = {10.1186/s12905-026-04788-2},
-  url     = {https://doi.org/10.1186/s12905-026-04788-2},
-  note    = {Open Access}
+  url     = {https://doi.org/10.1186/s12905-026-04788-2}
 }
 
 </details>
 
-🔎 Transparency Statement
+📜 License, Reuse & Research Integrity
 
-The repository documents the analytical workflow associated with the published study.
+<table>
+<tr>
+<td width="33%" valign="top">
 
-Raw DHS participant-level microdata are not included because access is governed by the DHS Program.
+Code
 
-Derived aggregate outputs may be shared where permitted.
+Repository code is distributed under the MIT License unless otherwise indicated.
 
-Statistical estimates should be interpreted in the context of the study design and published methods.
+</td>
+<td width="33%" valign="top">
 
-Any use of language-editing tools does not substitute for author responsibility for the scientific analysis, interpretation, and reporting.
+Article
 
-🎓 Learn the Methods — Salek Data Lab
+Reuse of publisher-hosted article content is governed by the license displayed with the published article.
 
-Free, practical tutorials on DHS data management, survey-weighted regression, Stata, R, and reproducible public-health research workflows can be linked here.
+</td>
+<td width="33%" valign="top">
 
-Add your official YouTube / Salek Data Lab URL here once available.
+DHS data
 
-🤝 Reuse & Academic Practice
+DHS participant-level data remain governed by DHS access and use requirements.
 
-Researchers and students are welcome to learn from and adapt the code structure and reproducible workflow, subject to the repository license and the terms governing the original data.
-
-When adapting this work:
-
-cite the published article;
-
-preserve attribution for reused code;
-
-comply with DHS data-use requirements;
-
-document substantial methodological changes; and
-
-avoid representing derivative analyses as results from the original publication.
-
-📜 License & Reuse
-
-Repository code: MIT License. See LICENSE for the full terms.
-
-Published article and publisher-hosted content: reuse is governed by the license displayed on the published article. Please consult the journal article directly before reproducing text, tables, or figures.
-
-DHS data: governed separately by the DHS Program's data-access and terms-of-use requirements.
+</td>
+</tr>
+</table>
 
 <div align="center">
 
 Research with transparency · Reproducibility · Public-health impact
 
-Biostatistics, Epidemiology, and Public Health Research Team
-Department of Statistics · Shahjalal University of Science and Technology (SUST)
+<br/>
 
-<br>
+<a href="https://doi.org/10.1186/s12905-026-04788-2"><img src="https://img.shields.io/badge/READ%20THE%20ARTICLE-DOI-1768A8?style=for-the-badge" alt="Read article" /></a>
+<a href="https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/"><img src="https://img.shields.io/badge/OPEN%20INTERACTIVE%20PORTAL-REACT-149ECA?style=for-the-badge&logo=react&logoColor=white" alt="Interactive portal" /></a>
+<a href="https://dhsprogram.com/"><img src="https://img.shields.io/badge/DATA%20SOURCE-DHS%20PROGRAM-1F8C85?style=for-the-badge" alt="DHS Program" /></a>
 
-
-
-
-<br>
+<br/><br/>
 
 ⭐ If this repository supports your research or learning, consider starring it.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2B59C3,50:173B6C,100:0B1F3A&height=105&section=footer" width="100%" alt="Footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2D9ECF,35:1768A8,70:0B3159,100:06111F&height=115&section=footer" width="100%" alt="Footer" />
 
 </div>
