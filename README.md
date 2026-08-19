@@ -1,5 +1,6 @@
 # <div align="center">
-# <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,50:1e40af,100:312e81&height=240&section=header&text=BDHS%20Unmet%20Need%20Analysis&fontSize=44&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Internet%20Use%20%26%20Unmet%20Need%20for%20Family%20Planning%20in%20Bangladesh&descAlignY=55&descSize=18&descColor=e0e7ff" width="100%"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,50:1e40af,100:312e81&height=240&section=header&text=BDHS%20Unmet%20Need%20Analysis&fontSize=44&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Internet%20Use%20%26%20Unmet%20Need%20for%20Family%20Planning%20in%20Bangladesh&descAlignY=55&descSize=18&descColor=e0e7ff" width="100%"/>
 
 <br/>
 
@@ -76,7 +77,7 @@ This repository is a **complete, transparent research compendium** — not just 
 
 ### 🧑‍🔬 Md Salek Miah *(First Author)*
 
-<img src="https://avatars.githubusercontent.com/u/180872571?v=4" width="120" style="border-radius:50%; border: 3px solid #1e40af;"/>
+<img src="https://avatars.githubusercontent.com/u/180872571?s=400&u=333ef9765334c58c8a6ca317aecf9044d182e8ff&v=4" width="140" style="border-radius:50%; border: 3px solid #1e40af;"/>
 
 Research Assistant, Department of Statistics  
 Shahjalal University of Science and Technology (SUST)  
@@ -95,6 +96,8 @@ Sylhet-3114, Bangladesh
 
 ### 🎓 Md Jamal Uddin, Ph.D. *(Corresponding Author)*
 
+<img src="https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=tMZWkOUAAAAJ&citpid=7" width="140" style="border-radius:50%; border: 3px solid #1e40af;" alt="Md Jamal Uddin"/>
+
 Professor, Department of Statistics, SUST, Sylhet-3114, Bangladesh  
 Faculty of Graduate Education, Daffodil International University, Dhaka
 
@@ -102,7 +105,7 @@ Faculty of Graduate Education, Daffodil International University, Dhaka
 📧 [jamal-sta@sust.edu](mailto:jamal-sta@sust.edu)
 
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--8360--3274-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0000-0002-8360-3274)
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=your-profile)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=tMZWkOUAAAAJ)
 
 </td>
 </tr>
@@ -206,9 +209,9 @@ No formal education     ██████████████████�
 
 <div align="center">
 
-![Figure 1](Figure%201.pdf)
+![Figure 1: Choropleth map of unmet need prevalence across Bangladesh divisions](Figure%201.pdf)
 
-*Caption: Choropleth map showing the prevalence of unmet need for family planning across the 8 divisions of Bangladesh (BDHS 2022).*
+*Caption: Choropleth map showing the prevalence of unmet need for family planning across the 8 divisions of Bangladesh (BDHS 2022). Data sourced from the BDHS 2022 survey, representing 4,370 currently pregnant women aged 15–49 years.*
 
 </div>
 
@@ -216,9 +219,9 @@ No formal education     ██████████████████�
 
 <div align="center">
 
-![Methodology Flowchart](Contraception_BD.pdf)
+![Methodology Flowchart: Participant selection and analytical workflow](Contraception_BD.pdf)
 
-*Caption: Participant selection and analytical workflow from BDHS 2022.* ⬇️ [Download PDF](Contraception_BD.pdf)
+*Caption: Participant selection and analytical workflow from BDHS 2022. This flowchart illustrates the step-by-step process from initial sample selection to final analytical cohort (n = 4,370).* ⬇️ [Download PDF](Contraception_BD.pdf)
 
 </div>
 
