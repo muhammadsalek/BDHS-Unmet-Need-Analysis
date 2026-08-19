@@ -211,9 +211,10 @@ No formal education     ██████████████████�
 
 <div align="center">
 
-<img src="Figure%201.pdf" alt="Figure 1: Choropleth map of unmet need prevalence across Bangladesh divisions" width="90%"/>
-
-*Caption: Choropleth map showing the prevalence of unmet need for family planning across the 8 divisions of Bangladesh (BDHS 2022). Data sourced from the BDHS 2022 survey, representing 4,370 currently pregnant women aged 15–49 years.*
+| **Figure 1: Choropleth map of unmet need prevalence across Bangladesh divisions** |
+|:--:|
+| <img src="Figure%201.pdf" alt="Choropleth map showing the prevalence of unmet need for family planning across the 8 divisions of Bangladesh" width="85%"/> |
+| *Caption: Choropleth map showing the prevalence of unmet need for family planning across the 8 divisions of Bangladesh (BDHS 2022). Data sourced from the BDHS 2022 survey, representing 4,370 currently pregnant women aged 15–49 years.* |
 
 </div>
 
@@ -223,11 +224,11 @@ No formal education     ██████████████████�
 
 <div align="center">
 
-<img src="Contraception_BD.pdf" alt="Methodology Flowchart: Participant selection and analytical workflow" width="80%"/>
-
-*Caption: Participant selection and analytical workflow from BDHS 2022. This flowchart illustrates the step-by-step process from initial sample selection to final analytical cohort (n = 4,370).*
-
-[⬇️ Download PDF](Contraception_BD.pdf)
+| **Methodology Flowchart: Participant selection and analytical workflow** |
+|:--:|
+| <img src="Contraception_BD.pdf" alt="Participant selection and analytical workflow from BDHS 2022" width="75%"/> |
+| *Caption: Participant selection and analytical workflow from BDHS 2022. This flowchart illustrates the step-by-step process from initial sample selection to final analytical cohort (n = 4,370).* |
+| [⬇️ Download PDF](Contraception_BD.pdf) |
 
 </div>
 
