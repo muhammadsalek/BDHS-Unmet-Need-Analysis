@@ -16,6 +16,8 @@
 [![Peer Review](https://img.shields.io/badge/Peer_Review-2_Rounds%2C_5_Reviewers-e11d48?style=for-the-badge&labelColor=0d1117)](#-peer-review--revision-trail)
 [![License](https://img.shields.io/badge/License-MIT-f59e0b?style=for-the-badge&labelColor=0d1117)](LICENSE)
 
+<br/>
+
 <img src="https://readme-typing-svg.demolab.com?font=Georgia&size=17&duration=3000&pause=900&color=1E40AF&center=true&vCenter=true&width=800&lines=Nationally+representative+BDHS+2022+cohort+%7C+n+%3D+4%2C370+pregnant+women;Stepwise+survey-weighted+multivariable+logistic+regression;Divisional+choropleth+mapping+of+unmet+need+prevalence;Full+methodology%2C+figures%2C+tables+%26+peer-review+trail+included;Published+%E2%80%94+BMC+Women's+Health+(2026)" alt="Typing SVG" />
 
 <br/>
@@ -209,19 +211,23 @@ No formal education     ██████████████████�
 
 <div align="center">
 
-![Figure 1: Choropleth map of unmet need prevalence across Bangladesh divisions](Figure%201.pdf)
+<img src="Figure%201.pdf" alt="Figure 1: Choropleth map of unmet need prevalence across Bangladesh divisions" width="90%"/>
 
 *Caption: Choropleth map showing the prevalence of unmet need for family planning across the 8 divisions of Bangladesh (BDHS 2022). Data sourced from the BDHS 2022 survey, representing 4,370 currently pregnant women aged 15–49 years.*
 
 </div>
 
+---
+
 ### Methodology Flowchart
 
 <div align="center">
 
-![Methodology Flowchart: Participant selection and analytical workflow](Contraception_BD.pdf)
+<img src="Contraception_BD.pdf" alt="Methodology Flowchart: Participant selection and analytical workflow" width="80%"/>
 
-*Caption: Participant selection and analytical workflow from BDHS 2022. This flowchart illustrates the step-by-step process from initial sample selection to final analytical cohort (n = 4,370).* ⬇️ [Download PDF](Contraception_BD.pdf)
+*Caption: Participant selection and analytical workflow from BDHS 2022. This flowchart illustrates the step-by-step process from initial sample selection to final analytical cohort (n = 4,370).*
+
+[⬇️ Download PDF](Contraception_BD.pdf)
 
 </div>
 
