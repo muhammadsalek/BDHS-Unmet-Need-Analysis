@@ -1,7 +1,7 @@
 
-# ============================================================
-# 1️⃣ INSTALL & LOAD ADVANCED SPATIAL PACKAGES
-# ============================================================
+
+#### INSTALL & LOAD ADVANCED SPATIAL PACKAGES ####
+
 
 packages <- c(
   "sf","readxl","dplyr","stringr","janitor",
@@ -18,30 +18,30 @@ if(any(!installed)){
 
 invisible(lapply(packages, library, character.only = TRUE))
 
-# ============================================================
-# 2️⃣ FILE PATHS
-# ============================================================
+
+#### FILE PATHS ####
+
 
 excel_path <- "F:/BDHS/Unmeet need/Data/division_global_unmet_need_percentages.xlsx"
 shp_path   <- "D:/Research/BDHS Research/Nepal/SBA/Bangladesh/Spatial/spatial/bd_shp/bd.shp"
 
-# ============================================================
-# 3️⃣ IMPORT DATA
-# ============================================================
+
+#### IMPORT DATA ####
+
 
 excel_data <- read_excel(excel_path)
 bd_shape <- st_read(shp_path)
 
-# ============================================================
-# 4️⃣ CLEAN COLUMN NAMES
-# ============================================================
+
+#### CLEAN COLUMN NAMES ####
+
 
 excel_data <- janitor::clean_names(excel_data)
 bd_shape   <- janitor::clean_names(bd_shape)
 
-# ============================================================
-# 5️⃣ CHECK COLUMN NAMES
-# ============================================================
+
+#### CHECK COLUMN NAMES ####
+
 
 cat("\nExcel Columns:\n")
 print(colnames(excel_data))
@@ -77,9 +77,9 @@ print(shape_divisions)
 
 
 
-# ============================================================
-# 1️⃣ RECODES TO MATCH DIVISION NAMES
-# ============================================================
+
+#### RECODES TO MATCH DIVISION NAMES ####
+
 
 excel_data <- excel_data %>%
   mutate(division_std = recode(division_std,
@@ -98,9 +98,9 @@ print(excel_only)
 cat("\nDivisions in Shapefile NOT in Excel after recode:\n")
 print(shape_only)
 
-# ============================================================
-# 2️⃣ MERGE EXCEL DATA WITH SHAPEFILE
-# ============================================================
+
+#### MERGE EXCEL DATA WITH SHAPEFILE ####
+
 
 library(dplyr)
 bd_map <- bd_shape %>%
@@ -117,16 +117,16 @@ summary(bd_map)
 
 
 
-# ============================================================
-# 1️⃣ CONVERT TO sp OBJECT FOR spdep
-# ============================================================
+
+#### CONVERT TO sp OBJECT FOR spdep ####
+
 
 library(sp)
 bd_sp <- as_Spatial(bd_map)  # needed for spdep functions
 
-# ============================================================
-# 2️⃣ CREATE QUEEN CONTIGUITY SPATIAL WEIGHTS
-# ============================================================
+
+#### CREATE QUEEN CONTIGUITY SPATIAL WEIGHTS ####
+
 
 library(spdep)
 nb_queen <- poly2nb(bd_sp, queen = TRUE)          # neighbors list
@@ -135,16 +135,16 @@ lw_queen <- nb2listw(nb_queen, style = "W", zero.policy = TRUE)  # weights
 # Optional: check neighbor structure
 print(nb_queen)
 
-# ============================================================
-# 3️⃣ GLOBAL MORAN'S I
-# ============================================================
+
+#### GLOBAL MORAN'S I ####
+
 
 moran_global <- moran.test(bd_map$unmet_global_pct, lw_queen, zero.policy = TRUE)
 print(moran_global)
 
-# ============================================================
-# 4️⃣ LOCAL MORAN'S I (LISA)
-# ============================================================
+
+#### LOCAL MORAN'S I (LISA) ####
+
 
 local_moran <- localmoran(bd_map$unmet_global_pct, lw_queen, zero.policy = TRUE)
 
@@ -153,9 +153,9 @@ bd_map$Ii <- local_moran[, "Ii"]       # Local Moran statistic
 bd_map$Z.Ii <- local_moran[, "Z.Ii"]   # Z-score
 bd_map$Pr.z <- local_moran[, "Pr(z > 0)"]  # p-value
 
-# ============================================================
-# 5️⃣ CLASSIFY LISA CLUSTERS
-# ============================================================
+
+#### CLASSIFY LISA CLUSTERS ####
+
 
 bd_map <- bd_map %>%
   mutate(lisa_cluster = case_when(
@@ -166,9 +166,9 @@ bd_map <- bd_map %>%
     TRUE ~ "Not Significant"
   ))
 
-# ============================================================
-# 6️⃣ PLOT LISA CLUSTER MAP
-# ============================================================
+
+#### PLOT LISA CLUSTER MAP ####
+
 
 library(ggplot2)
 library(ggspatial)
@@ -205,9 +205,9 @@ ggplot(bd_map) +
 
 
 
-# ============================================================
-# 4️⃣ LOCAL MORAN'S I (LISA) – corrected
-# ============================================================
+
+#### LOCAL MORAN'S I (LISA) – corrected ####
+
 
 local_moran <- localmoran(bd_map$unmet_global_pct, lw_queen, zero.policy = TRUE)
 
@@ -216,9 +216,8 @@ bd_map$Ii <- local_moran[, "Ii"]       # Local Moran statistic
 bd_map$Z.Ii <- local_moran[, "Z.Ii"]   # Z-score
 # Removed: Pr.z (not available)
 
-# ============================================================
-# 5️⃣ CLASSIFY LISA CLUSTERS
-# ============================================================
+#### CLASSIFY LISA CLUSTERS ####
+
 
 bd_map <- bd_map %>%
   mutate(lisa_cluster = case_when(
@@ -229,9 +228,9 @@ bd_map <- bd_map %>%
     TRUE ~ "Not Significant"
   ))
 
-# ============================================================
-# 6️⃣ PLOT LISA CLUSTER MAP
-# ============================================================
+
+#### PLOT LISA CLUSTER MAP ####
+
 
 library(ggplot2)
 library(ggspatial)
@@ -271,9 +270,9 @@ ggplot(bd_map) +
 
 
 
-# ============================================================
-# 1️⃣ CLASSIFY ALL DIVISIONS BY Unmet Need (FORCED COLORS)
-# ============================================================
+
+#### CLASSIFY ALL DIVISIONS BY Unmet Need (FORCED COLORS) ####
+
 
 bd_map <- bd_map %>%
   mutate(lisa_cluster_forced = case_when(
@@ -281,9 +280,9 @@ bd_map <- bd_map %>%
     unmet_global_pct <= mean(unmet_global_pct, na.rm = TRUE) ~ "Low"
   ))
 
-# ============================================================
-# 2️⃣ PLOT MAP WITH FORCED COLORS
-# ============================================================
+
+#### PLOT MAP WITH FORCED COLORS ####
+
 
 library(ggplot2)
 library(ggspatial)
@@ -375,9 +374,9 @@ library(ggtext)
 library(viridis)
 library(sf)
 
-# ===============================
-# 1️⃣ Choropleth Map with Labels
-# ===============================
+
+#### Choropleth Map with Labels ####
+
 
 ggplot(bd_map) +
   geom_sf(aes(fill = unmet_global_pct), color = "white", size = 0.6) +  # borders in white for clear divisions
@@ -432,9 +431,9 @@ library(ggspatial)
 library(sf)
 library(viridis)
 
-# ===============================
-# Single Clean & Polished Choropleth Map
-# ===============================
+
+#### Single Clean & Polished Choropleth Map ####
+
 
 # Choose one of these palettes by uncommenting the desired line
 #palette_fill <- scale_fill_viridis_c(option = "plasma", direction = -1, name = "Unmet Need (%)")  # Bright Plasma
@@ -480,9 +479,9 @@ library(ggplot2)
 library(ggspatial)
 library(sf)
 
-# ===============================
-# Single Polished Choropleth Map
-# ===============================
+
+#### Single Polished Choropleth Map ####
+
 
 palette_fill <- scale_fill_gradientn(
   colors = c("#fee0d2", "#fc9272", "#de2d26"),
