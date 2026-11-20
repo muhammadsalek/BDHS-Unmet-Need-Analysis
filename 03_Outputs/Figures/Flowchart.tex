@@ -1,0 +1,133 @@
+\documentclass[tikz, border=12pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc, shadows.blur}
+\usepackage{xcolor}
+
+\begin{document}
+
+\begin{tikzpicture}[
+    font=\sffamily,
+    box/.style={
+        rectangle, 
+        draw=black, 
+        thick, 
+        rounded corners=3pt, 
+        minimum width=5.5cm, 
+        minimum height=0.9cm, 
+        align=center, 
+        fill=white,
+        drop shadow={shadow xshift=0.5mm, shadow yshift=-0.5mm, opacity=0.15}
+    },
+    excl/.style={
+        rectangle, 
+        draw=black!60, 
+        thick, 
+        rounded corners=3pt, 
+        minimum width=4.5cm, 
+        minimum height=0.9cm, 
+        align=center, 
+        fill=gray!10,
+        drop shadow={shadow xshift=0.5mm, shadow yshift=-0.5mm, opacity=0.10}
+    },
+    arrow/.style={thick, -{Stealth[length=3mm, width=2.5mm]}},
+    label/.style={font=\sffamily\small\itshape, align=center}
+]
+
+% ===== LEFT COLUMN: MAIN FLOW =====
+
+% Sampling Design
+\node[box, minimum width=6.5cm, fill=cyan!8] (sampling) at (0, 9.5) {%
+    \textbf{Sampling Design}\\%
+    Two-stage stratified (PPS)\\%
+    2011 Population Census\\%
+    Stage 1: 675 EA\\%
+    Stage 2: 45 households/EA
+};
+
+% Study population
+\node[box, fill=teal!10] (population) at (0, 7.0) {%
+    \textbf{Study population}\\%
+    Currently pregnant women aged 15--49\\%
+    \textcolor{teal!70!black}{\textbf{n = 1,719}}
+};
+
+% Complete cases analysis
+\node[box, fill=orange!8] (complete) at (0, 4.5) {%
+    \textbf{Complete cases analysis}\\%
+    Based on outcome variable
+};
+
+% Final sample
+\node[box, minimum width=5.5cm, fill=green!10] (final) at (0, 2.0) {%
+    \textbf{Final analytical sample}\\%
+    \textcolor{green!60!black}{\textbf{n = 4,370}}
+};
+
+% ===== RIGHT COLUMN: EXCLUSIONS =====
+
+% Exclusion 1
+\node[excl] (excl1) at (6.5, 7.0) {%
+    \textbf{Excluded: 28,359}\\%
+    Not currently pregnant
+};
+
+% Exclusion 2
+\node[excl] (excl2) at (6.5, 4.5) {%
+    \textbf{Excluded: 25,630}\\%
+    Missing/other v626a categories
+};
+
+% Exclusion 3
+\node[excl, fill=gray!5, dashed] (excl3) at (6.5, 2.0) {%
+    \textbf{Excluded: (merged)}
+};
+
+% ===== ARROWS: MAIN FLOW =====
+
+% Sampling → Population
+\draw[arrow] (sampling) -- (population);
+
+% Population → Complete cases
+\draw[arrow] (population) -- (complete);
+
+% Complete cases → Final
+\draw[arrow] (complete) -- (final);
+
+% ===== ARROWS: EXCLUSIONS =====
+
+% Population → Excl1
+\draw[arrow, color=teal!60!black] (population.east) -- (excl1.west);
+
+% Complete → Excl2
+\draw[arrow, color=orange!60!black] (complete.east) -- (excl2.west);
+
+% Final → Excl3
+\draw[arrow, dashed, color=gray!60] (final.east) -- (excl3.west);
+
+% ===== FINAL SPLIT =====
+
+% Unmet need
+\node[box, minimum width=4.5cm, fill=rose!12] (unmet) at (1.5, -1.5) {%
+    \textbf{Unmet need}\\%
+    \textcolor{red!70!black}{\textbf{1,791 (41.0\%)}}
+};
+
+% No unmet need
+\node[box, minimum width=4.5cm, fill=blue!10] (nomet) at (-3.5, -1.5) {%
+    \textbf{No unmet need}\\%
+    \textcolor{blue!70!black}{\textbf{2,579 (59.0\%)}}
+};
+
+% Arrows from Final to Unmet/No unmet
+\draw[arrow, color=green!60!black] (final.south) -- ++(0, -0.5) -| (unmet.north);
+\draw[arrow, color=green!60!black] (final.south) -- ++(0, -0.5) -| (nomet.north);
+
+% ===== LABELS =====
+
+% Exclusion labels with background
+\node[fill=white, inner sep=2pt, font=\sffamily\small\bfseries, text=teal!70!black] at ($(population.east)!0.5!(excl1.west)+(0,0.35)$) {Excluded};
+\node[fill=white, inner sep=2pt, font=\sffamily\small\bfseries, text=orange!70!black] at ($(complete.east)!0.5!(excl2.west)+(0,0.35)$) {Excluded};
+
+\end{tikzpicture}
+
+\end{document}
